@@ -1,0 +1,106 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MVVMtpl", "MVVMtpl", "{5FC7DDD6-3735-4D7F-ADB7-C4BE0C0795EE}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "MVVMtpl.Shared", "MVVMtpl\MVVMtpl.Shared\MVVMtpl.Shared.shproj", "{A037DB2E-CDDC-4CC0-A81C-30579A53553D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVVMtpl.Windows", "MVVMtpl\MVVMtpl.Windows\MVVMtpl.Windows.csproj", "{B99B99BE-6212-4DDC-B3C9-5E05DF5CAD4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVVMtpl.WindowsPhone", "MVVMtpl\MVVMtpl.WindowsPhone\MVVMtpl.WindowsPhone.csproj", "{AD289C8C-7511-4D65-BD30-B70CCB120616}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		MVVMtpl\MVVMtpl.Shared\MVVMtpl.Shared.projitems*{b99b99be-6212-4ddc-b3c9-5e05df5cad4a}*SharedItemsImports = 4
+		MVVMtpl\MVVMtpl.Shared\MVVMtpl.Shared.projitems*{a037db2e-cddc-4cc0-a81c-30579a53553d}*SharedItemsImports = 13
+		MVVMtpl\MVVMtpl.Shared\MVVMtpl.Shared.projitems*{ad289c8c-7511-4d65-bd30-b70ccb120616}*SharedItemsImports = 4
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://quique.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = MVVMtpl\\MVVMtpl.Shared\\MVVMtpl.Shared.projitems
+		SccProjectTopLevelParentUniqueName1 = MVVMtpl.sln
+		SccProjectName1 = MVVMtpl/MVVMtpl.Shared
+		SccLocalPath1 = MVVMtpl\\MVVMtpl.Shared
+		SccProjectUniqueName2 = MVVMtpl\\MVVMtpl.Windows\\MVVMtpl.Windows.csproj
+		SccProjectTopLevelParentUniqueName2 = MVVMtpl.sln
+		SccProjectName2 = MVVMtpl/MVVMtpl.Windows
+		SccLocalPath2 = MVVMtpl\\MVVMtpl.Windows
+		SccProjectUniqueName3 = MVVMtpl\\MVVMtpl.WindowsPhone\\MVVMtpl.WindowsPhone.csproj
+		SccProjectTopLevelParentUniqueName3 = MVVMtpl.sln
+		SccProjectName3 = MVVMtpl/MVVMtpl.WindowsPhone
+		SccLocalPath3 = MVVMtpl\\MVVMtpl.WindowsPhone
+		SccProjectUniqueName4 = MVVMtpl\\MVVMtpl.Shared\\MVVMtpl.Shared.shproj
+		SccProjectTopLevelParentUniqueName4 = MVVMtpl.sln
+		SccProjectName4 = MVVMtpl/MVVMtpl.Shared
+		SccLocalPath4 = MVVMtpl\\MVVMtpl.Shared
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B99B99BE-6212-4DDC-B3C9-5E05DF5CAD4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B99B99BE-6212-4DDC-B3C9-5E05DF5CAD4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B99B99BE-6212-4DDC-B3C9-5E05DF5CAD4A}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B99B99BE-6212-4DDC-B3C9-5E05DF5CAD4A}.Debug|ARM.ActiveCfg = Debug|ARM
+		{B99B99BE-6212-4DDC-B3C9-5E05DF5CAD4A}.Debug|ARM.Build.0 = Debug|ARM
+		{B99B99BE-6212-4DDC-B3C9-5E05DF5CAD4A}.Debug|ARM.Deploy.0 = Debug|ARM
+		{B99B99BE-6212-4DDC-B3C9-5E05DF5CAD4A}.Debug|x64.ActiveCfg = Debug|x64
+		{B99B99BE-6212-4DDC-B3C9-5E05DF5CAD4A}.Debug|x64.Build.0 = Debug|x64
+		{B99B99BE-6212-4DDC-B3C9-5E05DF5CAD4A}.Debug|x64.Deploy.0 = Debug|x64
+		{B99B99BE-6212-4DDC-B3C9-5E05DF5CAD4A}.Debug|x86.ActiveCfg = Debug|x86
+		{B99B99BE-6212-4DDC-B3C9-5E05DF5CAD4A}.Debug|x86.Build.0 = Debug|x86
+		{B99B99BE-6212-4DDC-B3C9-5E05DF5CAD4A}.Debug|x86.Deploy.0 = Debug|x86
+		{B99B99BE-6212-4DDC-B3C9-5E05DF5CAD4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B99B99BE-6212-4DDC-B3C9-5E05DF5CAD4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B99B99BE-6212-4DDC-B3C9-5E05DF5CAD4A}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{B99B99BE-6212-4DDC-B3C9-5E05DF5CAD4A}.Release|ARM.ActiveCfg = Release|ARM
+		{B99B99BE-6212-4DDC-B3C9-5E05DF5CAD4A}.Release|ARM.Build.0 = Release|ARM
+		{B99B99BE-6212-4DDC-B3C9-5E05DF5CAD4A}.Release|ARM.Deploy.0 = Release|ARM
+		{B99B99BE-6212-4DDC-B3C9-5E05DF5CAD4A}.Release|x64.ActiveCfg = Release|x64
+		{B99B99BE-6212-4DDC-B3C9-5E05DF5CAD4A}.Release|x64.Build.0 = Release|x64
+		{B99B99BE-6212-4DDC-B3C9-5E05DF5CAD4A}.Release|x64.Deploy.0 = Release|x64
+		{B99B99BE-6212-4DDC-B3C9-5E05DF5CAD4A}.Release|x86.ActiveCfg = Release|x86
+		{B99B99BE-6212-4DDC-B3C9-5E05DF5CAD4A}.Release|x86.Build.0 = Release|x86
+		{B99B99BE-6212-4DDC-B3C9-5E05DF5CAD4A}.Release|x86.Deploy.0 = Release|x86
+		{AD289C8C-7511-4D65-BD30-B70CCB120616}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD289C8C-7511-4D65-BD30-B70CCB120616}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD289C8C-7511-4D65-BD30-B70CCB120616}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{AD289C8C-7511-4D65-BD30-B70CCB120616}.Debug|ARM.ActiveCfg = Debug|ARM
+		{AD289C8C-7511-4D65-BD30-B70CCB120616}.Debug|ARM.Build.0 = Debug|ARM
+		{AD289C8C-7511-4D65-BD30-B70CCB120616}.Debug|ARM.Deploy.0 = Debug|ARM
+		{AD289C8C-7511-4D65-BD30-B70CCB120616}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{AD289C8C-7511-4D65-BD30-B70CCB120616}.Debug|x86.ActiveCfg = Debug|x86
+		{AD289C8C-7511-4D65-BD30-B70CCB120616}.Debug|x86.Build.0 = Debug|x86
+		{AD289C8C-7511-4D65-BD30-B70CCB120616}.Debug|x86.Deploy.0 = Debug|x86
+		{AD289C8C-7511-4D65-BD30-B70CCB120616}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD289C8C-7511-4D65-BD30-B70CCB120616}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD289C8C-7511-4D65-BD30-B70CCB120616}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{AD289C8C-7511-4D65-BD30-B70CCB120616}.Release|ARM.ActiveCfg = Release|ARM
+		{AD289C8C-7511-4D65-BD30-B70CCB120616}.Release|ARM.Build.0 = Release|ARM
+		{AD289C8C-7511-4D65-BD30-B70CCB120616}.Release|ARM.Deploy.0 = Release|ARM
+		{AD289C8C-7511-4D65-BD30-B70CCB120616}.Release|x64.ActiveCfg = Release|Any CPU
+		{AD289C8C-7511-4D65-BD30-B70CCB120616}.Release|x86.ActiveCfg = Release|x86
+		{AD289C8C-7511-4D65-BD30-B70CCB120616}.Release|x86.Build.0 = Release|x86
+		{AD289C8C-7511-4D65-BD30-B70CCB120616}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A037DB2E-CDDC-4CC0-A81C-30579A53553D} = {5FC7DDD6-3735-4D7F-ADB7-C4BE0C0795EE}
+		{B99B99BE-6212-4DDC-B3C9-5E05DF5CAD4A} = {5FC7DDD6-3735-4D7F-ADB7-C4BE0C0795EE}
+		{AD289C8C-7511-4D65-BD30-B70CCB120616} = {5FC7DDD6-3735-4D7F-ADB7-C4BE0C0795EE}
+	EndGlobalSection
+EndGlobal

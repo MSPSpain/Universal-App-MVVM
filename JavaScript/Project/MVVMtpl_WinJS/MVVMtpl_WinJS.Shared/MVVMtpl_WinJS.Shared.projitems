@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="SharedProjectFile_SccProperties">
+    <SharedProjectFile_ProjectGuid>{e2f7da2e-94f6-4134-939e-065667afb95e}</SharedProjectFile_ProjectGuid>
+    <SharedProjectFile_SccProjectName>SAK</SharedProjectFile_SccProjectName>
+    <SharedProjectFile_SccAuxPath>SAK</SharedProjectFile_SccAuxPath>
+    <SharedProjectFile_SccLocalPath>SAK</SharedProjectFile_SccLocalPath>
+    <SharedProjectFile_SccProvider>SAK</SharedProjectFile_SccProvider>
+  </PropertyGroup>
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>6a732649-18c2-498c-96aa-23d2bb6deabc</SharedGUID>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="$(MSBuildThisFileDirectory)Base\ViewsDictionary.js" />
+    <Content Include="$(MSBuildThisFileDirectory)Base\WinJS.Observe.js" />
+    <Content Include="$(MSBuildThisFileDirectory)Base\WinJS.RelayCommand.js" />
+    <Content Include="$(MSBuildThisFileDirectory)build\code.js" />
+    <Content Include="$(MSBuildThisFileDirectory)build\styles.css" />
+    <Content Include="$(MSBuildThisFileDirectory)default.html" />
+    <Content Include="$(MSBuildThisFileDirectory)default.js" />
+    <Content Include="$(MSBuildThisFileDirectory)gulpfile.js" />
+    <Content Include="$(MSBuildThisFileDirectory)package.json" />
+    <Content Include="$(MSBuildThisFileDirectory)ServicesLocator.js" />
+    <Content Include="$(MSBuildThisFileDirectory)Services\HttpService.js" />
+    <Content Include="$(MSBuildThisFileDirectory)Services\StorageService.js" />
+    <Content Include="$(MSBuildThisFileDirectory)Services\NetworkService.js" />
+    <Content Include="$(MSBuildThisFileDirectory)Services\NavigatorServiceConfiguration.js" />
+    <Content Include="$(MSBuildThisFileDirectory)Services\NavigatorService.js" />
+    <Content Include="$(MSBuildThisFileDirectory)Vendor\di.js" />
+    <Content Include="$(MSBuildThisFileDirectory)Vendor\navigator.js" />
+    <Content Include="$(MSBuildThisFileDirectory)ViewModels\MainViewModel.js" />
+    <Content Include="$(MSBuildThisFileDirectory)Views\MainPage.html" />
+    <Content Include="$(MSBuildThisFileDirectory)Views\MainPage.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)Models\" />
+  </ItemGroup>
+</Project>
