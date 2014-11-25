@@ -36,10 +36,11 @@
   <build:Metadata>
     <build:Item Name="SharedGUID" Value="6a732649-18c2-498c-96aa-23d2bb6deabc" />
     <build:Item Name="CodeSharingProject" Value="248F659F-DAC5-46E8-AC09-60EC9FC95053" />
-    <build:Item Name="VisualStudio" Version="12.0" />
-    <build:Item Name="VisualStudioEdition" Value="Microsoft Visual Studio Ultimate 2013" />
-    <build:Item Name="OperatingSystem" Version="6.4.9841.0 (fbl_release.140912-1613)" />
-    <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="12.0.30501.0" />
-    <build:Item Name="MakePri.exe" Version="6.3.9600.17029 (winblue_gdr.140219-1702)" />
+    <build:Item Name="VisualStudio" Version="14.0" />
+    <build:Item Name="VisualStudioEdition" Value="Microsoft Visual Studio Ultimate 2015 Preview" />
+    <build:Item Name="OperatingSystem" Version="6.4.9879.0 (fbl_release.141103-1722)" />
+    <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="14.0.22310.1" />
+    <build:Item Name="ProjectGUID" Value="5d0ed7fe-79ba-4337-bd31-747454f00806" />
+    <build:Item Name="MakePri.exe" Version="6.3.9600.17298 (winblue.141024-1500)" />
   </build:Metadata>
 </Package>

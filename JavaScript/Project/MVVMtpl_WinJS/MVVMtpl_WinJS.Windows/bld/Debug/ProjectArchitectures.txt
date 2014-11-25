@@ -1,1 +1,1 @@
-C:\tfs\MVVMtpl\MVVMtpl_WinJS\MVVMtpl_WinJS\MVVMtpl_WinJS.Windows\MVVMtpl_WinJS.Windows.jsproj;neutral
+C:\github\Universal-App-MVVM\JavaScript\Project\MVVMtpl_WinJS\MVVMtpl_WinJS.Windows\MVVMtpl_WinJS.Windows.jsproj;neutral

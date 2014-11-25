@@ -6,7 +6,9 @@
         // populates the page elements with the app's data.
         ready: function (element, options) {
             // TODO: Initialize the page here.
-            WinJS.Binding.processAll(element, ViewModels.mainViewModel);
+            var viewModel = ViewModels.demoViewModel;
+
+            WinJS.Binding.processAll(element, viewModel);
         }
     });
 })(this, WinJS);

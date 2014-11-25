@@ -2,6 +2,7 @@
     "use strict";
 
     WinJS.Namespace.define("Services.NavigatorServicesConfiguration", {
-        MainViewModel: Views.MainPage
+        MainViewModel: Views.MainPage,
+        DemoViewModel: Views.DemoPage
     });
 })(this, WinJS);

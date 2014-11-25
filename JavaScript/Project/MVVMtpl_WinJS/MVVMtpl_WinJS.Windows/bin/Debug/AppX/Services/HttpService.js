@@ -5,11 +5,11 @@
         return WinJS.xhr({
             url: url,
             type: type,
-            headers: null || options.headers,
-            user: null || options.user,
-            password: null || options.password,
+            headers: options.headers || null,
+            user: options.user || null,
+            password: options.password || null,
             responseType: 'json' || options.response,
-            data: {} || options.data,
+            data: options.data || {},
             customRequestInitializer: function () { } || options.customRequestInitializer
         });
     }
@@ -21,10 +21,12 @@
 
         {
             get: function (url, options) {
+                options = options || {};
                 return xhr('GET', url, options);
             },
 
             post: function (url, options) {
+                options = options || {};
                 return xhr('POST', url, options);
             }
         }

@@ -7,8 +7,8 @@
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
     <PackageIdentityName>5d0ed7fe-79ba-4337-bd31-747454f00806</PackageIdentityName>
-    <IntermediateOutputPath>C:\tfs\MVVMtpl\MVVMtpl_WinJS\MVVMtpl_WinJS\MVVMtpl_WinJS.Windows\bld\Debug\</IntermediateOutputPath>
-    <RegisteredManifestChecksum>463239710558B9155BCD6DD8138D77E23C2248AB3F67B6486610A285071F90C9</RegisteredManifestChecksum>
+    <IntermediateOutputPath>C:\github\Universal-App-MVVM\JavaScript\Project\MVVMtpl_WinJS\MVVMtpl_WinJS.Windows\bld\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>2AB78A71E356E70CF70F873AB0A5F88AA74D8EEB4FA63D4577795D696F084BFD</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>5d0ed7fe-79ba-4337-bd31-747454f00806_1.0.0.0_neutral__9pehvaj7hnzm8</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>5d0ed7fe-79ba-4337-bd31-747454f00806_9pehvaj7hnzm8!App</RegisteredUserModeAppID>
     <RegisteredPackageID>5d0ed7fe-79ba-4337-bd31-747454f00806</RegisteredPackageID>
@@ -17,104 +17,128 @@
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\tfs\MVVMtpl\MVVMtpl_WinJS\MVVMtpl_WinJS\MVVMtpl_WinJS.Windows\bin\Debug\AppxManifest.xml">
+    <AppXManifest Include="C:\github\Universal-App-MVVM\JavaScript\Project\MVVMtpl_WinJS\MVVMtpl_WinJS.Windows\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-10-17T13:02:28.667</Modified>
+      <Modified>2014-11-25T16:51:54.777</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\tfs\MVVMtpl\MVVMtpl_WinJS\MVVMtpl_WinJS\MVVMtpl_WinJS.Windows\images\logo.png">
+    <AppxPackagedFile Include="C:\github\Universal-App-MVVM\JavaScript\Project\MVVMtpl_WinJS\MVVMtpl_WinJS.Windows\default.html">
+      <PackagePath>default.html</PackagePath>
+      <Modified>2014-11-25T16:59:10.209</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\github\Universal-App-MVVM\JavaScript\Project\MVVMtpl_WinJS\MVVMtpl_WinJS.Windows\Views\DemoPage.html">
+      <PackagePath>Views\DemoPage.html</PackagePath>
+      <Modified>2014-11-25T16:48:27.157</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\github\Universal-App-MVVM\JavaScript\Project\MVVMtpl_WinJS\MVVMtpl_WinJS.Windows\Views\MainPage.html">
+      <PackagePath>Views\MainPage.html</PackagePath>
+      <Modified>2014-11-25T17:06:01.763</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\github\Universal-App-MVVM\JavaScript\Project\MVVMtpl_WinJS\MVVMtpl_WinJS.Windows\images\logo.png">
       <PackagePath>images\logo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2014-08-25T18:00:00.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\tfs\MVVMtpl\MVVMtpl_WinJS\MVVMtpl_WinJS\MVVMtpl_WinJS.Windows\images\smalllogo.png">
+    <AppxPackagedFile Include="C:\github\Universal-App-MVVM\JavaScript\Project\MVVMtpl_WinJS\MVVMtpl_WinJS.Windows\images\smalllogo.png">
       <PackagePath>images\smalllogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2014-08-25T18:00:00.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\tfs\MVVMtpl\MVVMtpl_WinJS\MVVMtpl_WinJS\MVVMtpl_WinJS.Windows\images\splashscreen.png">
+    <AppxPackagedFile Include="C:\github\Universal-App-MVVM\JavaScript\Project\MVVMtpl_WinJS\MVVMtpl_WinJS.Windows\images\splashscreen.png">
       <PackagePath>images\splashscreen.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2014-08-25T18:00:00.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\tfs\MVVMtpl\MVVMtpl_WinJS\MVVMtpl_WinJS\MVVMtpl_WinJS.Windows\images\storelogo.png">
+    <AppxPackagedFile Include="C:\github\Universal-App-MVVM\JavaScript\Project\MVVMtpl_WinJS\MVVMtpl_WinJS.Windows\images\storelogo.png">
       <PackagePath>images\storelogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2014-08-25T18:00:00.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\tfs\MVVMtpl\MVVMtpl_WinJS\MVVMtpl_WinJS\MVVMtpl_WinJS.Windows\css\default.css">
+    <AppxPackagedFile Include="C:\github\Universal-App-MVVM\JavaScript\Project\MVVMtpl_WinJS\MVVMtpl_WinJS.Windows\css\default.css">
       <PackagePath>css\default.css</PackagePath>
       <Modified>2014-08-25T18:00:00.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\tfs\MVVMtpl\MVVMtpl_WinJS\MVVMtpl_WinJS\MVVMtpl_WinJS.Shared\Base\ViewsDictionary.js">
+    <AppxPackagedFile Include="C:\github\Universal-App-MVVM\JavaScript\Project\MVVMtpl_WinJS\MVVMtpl_WinJS.Windows\Views\DemoPage.js">
+      <PackagePath>Views\DemoPage.js</PackagePath>
+      <Modified>2014-11-25T17:03:21.407</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\github\Universal-App-MVVM\JavaScript\Project\MVVMtpl_WinJS\MVVMtpl_WinJS.Windows\Views\MainPage.js">
+      <PackagePath>Views\MainPage.js</PackagePath>
+      <Modified>2014-11-25T17:02:49.414</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\github\Universal-App-MVVM\JavaScript\Project\MVVMtpl_WinJS\MVVMtpl_WinJS.Shared\Base\Helpers.js">
+      <PackagePath>Base\Helpers.js</PackagePath>
+      <Modified>2014-10-27T14:39:09.048</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\github\Universal-App-MVVM\JavaScript\Project\MVVMtpl_WinJS\MVVMtpl_WinJS.Shared\Base\ViewsDictionary.js">
       <PackagePath>Base\ViewsDictionary.js</PackagePath>
-      <Modified>2014-10-14T15:39:12.822</Modified>
+      <Modified>2014-11-25T16:40:48.517</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\tfs\MVVMtpl\MVVMtpl_WinJS\MVVMtpl_WinJS\MVVMtpl_WinJS.Shared\Base\WinJS.RelayCommand.js">
+    <AppxPackagedFile Include="C:\github\Universal-App-MVVM\JavaScript\Project\MVVMtpl_WinJS\MVVMtpl_WinJS.Shared\Base\WinJS.Messenger.js">
+      <PackagePath>Base\WinJS.Messenger.js</PackagePath>
+      <Modified>2014-11-25T16:28:36.562</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\github\Universal-App-MVVM\JavaScript\Project\MVVMtpl_WinJS\MVVMtpl_WinJS.Shared\Base\WinJS.ObservableObject.js">
+      <PackagePath>Base\WinJS.ObservableObject.js</PackagePath>
+      <Modified>2014-11-04T10:44:22.795</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\github\Universal-App-MVVM\JavaScript\Project\MVVMtpl_WinJS\MVVMtpl_WinJS.Shared\Base\WinJS.RelayCommand.js">
       <PackagePath>Base\WinJS.RelayCommand.js</PackagePath>
-      <Modified>2014-10-16T10:40:20.203</Modified>
+      <Modified>2014-11-25T16:28:36.593</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\tfs\MVVMtpl\MVVMtpl_WinJS\MVVMtpl_WinJS\MVVMtpl_WinJS.Shared\default.js">
+    <AppxPackagedFile Include="C:\github\Universal-App-MVVM\JavaScript\Project\MVVMtpl_WinJS\MVVMtpl_WinJS.Shared\default.js">
       <PackagePath>default.js</PackagePath>
-      <Modified>2014-10-16T10:40:19.563</Modified>
+      <Modified>2014-11-25T16:45:39.578</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\tfs\MVVMtpl\MVVMtpl_WinJS\MVVMtpl_WinJS\MVVMtpl_WinJS.Shared\gulpfile.js">
-      <PackagePath>gulpfile.js</PackagePath>
-      <Modified>2014-10-17T12:55:42.465</Modified>
+    <AppxPackagedFile Include="C:\github\Universal-App-MVVM\JavaScript\Project\MVVMtpl_WinJS\MVVMtpl_WinJS.Shared\Models\Demo.js">
+      <PackagePath>Models\Demo.js</PackagePath>
+      <Modified>2014-11-25T16:42:37.195</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\tfs\MVVMtpl\MVVMtpl_WinJS\MVVMtpl_WinJS\MVVMtpl_WinJS.Shared\ServicesLocator.js">
+    <AppxPackagedFile Include="C:\github\Universal-App-MVVM\JavaScript\Project\MVVMtpl_WinJS\MVVMtpl_WinJS.Shared\ServicesLocator.js">
       <PackagePath>ServicesLocator.js</PackagePath>
-      <Modified>2014-10-16T14:01:46.731</Modified>
+      <Modified>2014-11-25T17:03:35.674</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\tfs\MVVMtpl\MVVMtpl_WinJS\MVVMtpl_WinJS\MVVMtpl_WinJS.Shared\Services\HttpService.js">
+    <AppxPackagedFile Include="C:\github\Universal-App-MVVM\JavaScript\Project\MVVMtpl_WinJS\MVVMtpl_WinJS.Shared\Services\HttpService.js">
       <PackagePath>Services\HttpService.js</PackagePath>
-      <Modified>2014-10-16T14:07:28.796</Modified>
+      <Modified>2014-10-30T10:49:31.675</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\tfs\MVVMtpl\MVVMtpl_WinJS\MVVMtpl_WinJS\MVVMtpl_WinJS.Shared\Services\StorageService.js">
+    <AppxPackagedFile Include="C:\github\Universal-App-MVVM\JavaScript\Project\MVVMtpl_WinJS\MVVMtpl_WinJS.Shared\Services\StorageService.js">
       <PackagePath>Services\StorageService.js</PackagePath>
-      <Modified>2014-10-16T14:08:11.082</Modified>
+      <Modified>2014-10-31T17:29:28.644</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\tfs\MVVMtpl\MVVMtpl_WinJS\MVVMtpl_WinJS\MVVMtpl_WinJS.Shared\Services\NetworkService.js">
+    <AppxPackagedFile Include="C:\github\Universal-App-MVVM\JavaScript\Project\MVVMtpl_WinJS\MVVMtpl_WinJS.Shared\Services\NetworkService.js">
       <PackagePath>Services\NetworkService.js</PackagePath>
       <Modified>2014-10-16T14:07:59.808</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\tfs\MVVMtpl\MVVMtpl_WinJS\MVVMtpl_WinJS\MVVMtpl_WinJS.Shared\Services\NavigatorServiceConfiguration.js">
+    <AppxPackagedFile Include="C:\github\Universal-App-MVVM\JavaScript\Project\MVVMtpl_WinJS\MVVMtpl_WinJS.Shared\Services\NavigatorServiceConfiguration.js">
       <PackagePath>Services\NavigatorServiceConfiguration.js</PackagePath>
-      <Modified>2014-10-14T14:42:35.870</Modified>
+      <Modified>2014-11-25T16:43:25.553</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\tfs\MVVMtpl\MVVMtpl_WinJS\MVVMtpl_WinJS\MVVMtpl_WinJS.Shared\Services\NavigatorService.js">
+    <AppxPackagedFile Include="C:\github\Universal-App-MVVM\JavaScript\Project\MVVMtpl_WinJS\MVVMtpl_WinJS.Shared\Services\NavigatorService.js">
       <PackagePath>Services\NavigatorService.js</PackagePath>
       <Modified>2014-10-16T14:06:56.818</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\tfs\MVVMtpl\MVVMtpl_WinJS\MVVMtpl_WinJS\MVVMtpl_WinJS.Shared\Vendor\di.js">
+    <AppxPackagedFile Include="C:\github\Universal-App-MVVM\JavaScript\Project\MVVMtpl_WinJS\MVVMtpl_WinJS.Shared\Vendor\di.js">
       <PackagePath>Vendor\di.js</PackagePath>
       <Modified>2014-10-16T10:40:19.938</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\tfs\MVVMtpl\MVVMtpl_WinJS\MVVMtpl_WinJS\MVVMtpl_WinJS.Shared\Vendor\navigator.js">
+    <AppxPackagedFile Include="C:\github\Universal-App-MVVM\JavaScript\Project\MVVMtpl_WinJS\MVVMtpl_WinJS.Shared\Vendor\navigator.js">
       <PackagePath>Vendor\navigator.js</PackagePath>
       <Modified>2014-10-14T15:09:40.610</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\tfs\MVVMtpl\MVVMtpl_WinJS\MVVMtpl_WinJS\MVVMtpl_WinJS.Shared\ViewModels\MainViewModel.js">
+    <AppxPackagedFile Include="C:\github\Universal-App-MVVM\JavaScript\Project\MVVMtpl_WinJS\MVVMtpl_WinJS.Shared\ViewModels\DemoViewModel.js">
+      <PackagePath>ViewModels\DemoViewModel.js</PackagePath>
+      <Modified>2014-11-25T16:45:00.728</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\github\Universal-App-MVVM\JavaScript\Project\MVVMtpl_WinJS\MVVMtpl_WinJS.Shared\ViewModels\MainViewModel.js">
       <PackagePath>ViewModels\MainViewModel.js</PackagePath>
-      <Modified>2014-10-16T12:56:58.216</Modified>
+      <Modified>2014-11-25T16:59:00.490</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\tfs\MVVMtpl\MVVMtpl_WinJS\MVVMtpl_WinJS\MVVMtpl_WinJS.Shared\Views\MainPage.js">
-      <PackagePath>Views\MainPage.js</PackagePath>
-      <Modified>2014-10-16T10:40:19.376</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\tfs\MVVMtpl\MVVMtpl_WinJS\MVVMtpl_WinJS\MVVMtpl_WinJS.Shared\default.html">
-      <PackagePath>default.html</PackagePath>
-      <Modified>2014-10-17T13:03:49.807</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\tfs\MVVMtpl\MVVMtpl_WinJS\MVVMtpl_WinJS\MVVMtpl_WinJS.Shared\Views\MainPage.html">
-      <PackagePath>Views\MainPage.html</PackagePath>
-      <Modified>2014-10-16T10:40:19.188</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\tfs\MVVMtpl\MVVMtpl_WinJS\MVVMtpl_WinJS\MVVMtpl_WinJS.Windows\bin\Debug\ReverseMap\resources.pri">
+    <AppxPackagedFile Include="C:\github\Universal-App-MVVM\JavaScript\Project\MVVMtpl_WinJS\MVVMtpl_WinJS.Windows\bin\Debug\ReverseMap\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2014-10-17T13:02:28.308</Modified>
+      <Modified>2014-11-25T16:51:54.510</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

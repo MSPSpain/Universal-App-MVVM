@@ -3,18 +3,17 @@
 
     var MainViewModel = WinJS.Class.define(
         function () {
-            // Dependencies
-            this.dependencies = "navigatorService, storageService";
-            this.refreshCommand = new WinJS.RelayCommand(this.refreshPage, this);
-
-            this.a = 1;
-            
+            this.dependencies = "navigatorService";
+            this.navigateCommand = new WinJS.RelayCommand(this.navigateToDemo, this);
         },
 
         {
-            refreshPage: function () {
-                this.a = 2;
-                this.navigatorService.navigate("MainViewModel");
+            ready: function() {
+                // Dependencies loaded
+            },
+
+            navigateToDemo: function () {
+                this.navigatorService.navigate("DemoViewModel");
             }
         }
     );

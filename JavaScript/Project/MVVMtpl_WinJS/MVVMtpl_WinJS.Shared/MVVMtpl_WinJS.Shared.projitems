@@ -13,15 +13,13 @@
     <SharedGUID>6a732649-18c2-498c-96aa-23d2bb6deabc</SharedGUID>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="$(MSBuildThisFileDirectory)Base\Helpers.js" />
     <Content Include="$(MSBuildThisFileDirectory)Base\ViewsDictionary.js" />
-    <Content Include="$(MSBuildThisFileDirectory)Base\WinJS.Observe.js" />
+    <Content Include="$(MSBuildThisFileDirectory)Base\WinJS.Messenger.js" />
+    <Content Include="$(MSBuildThisFileDirectory)Base\WinJS.ObservableObject.js" />
     <Content Include="$(MSBuildThisFileDirectory)Base\WinJS.RelayCommand.js" />
-    <Content Include="$(MSBuildThisFileDirectory)build\code.js" />
-    <Content Include="$(MSBuildThisFileDirectory)build\styles.css" />
-    <Content Include="$(MSBuildThisFileDirectory)default.html" />
     <Content Include="$(MSBuildThisFileDirectory)default.js" />
-    <Content Include="$(MSBuildThisFileDirectory)gulpfile.js" />
-    <Content Include="$(MSBuildThisFileDirectory)package.json" />
+    <Content Include="$(MSBuildThisFileDirectory)Models\Demo.js" />
     <Content Include="$(MSBuildThisFileDirectory)ServicesLocator.js" />
     <Content Include="$(MSBuildThisFileDirectory)Services\HttpService.js" />
     <Content Include="$(MSBuildThisFileDirectory)Services\StorageService.js" />
@@ -30,11 +28,10 @@
     <Content Include="$(MSBuildThisFileDirectory)Services\NavigatorService.js" />
     <Content Include="$(MSBuildThisFileDirectory)Vendor\di.js" />
     <Content Include="$(MSBuildThisFileDirectory)Vendor\navigator.js" />
+    <Content Include="$(MSBuildThisFileDirectory)ViewModels\DemoViewModel.js" />
     <Content Include="$(MSBuildThisFileDirectory)ViewModels\MainViewModel.js" />
-    <Content Include="$(MSBuildThisFileDirectory)Views\MainPage.html" />
-    <Content Include="$(MSBuildThisFileDirectory)Views\MainPage.js" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="$(MSBuildThisFileDirectory)Models\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Services\Local\" />
   </ItemGroup>
 </Project>

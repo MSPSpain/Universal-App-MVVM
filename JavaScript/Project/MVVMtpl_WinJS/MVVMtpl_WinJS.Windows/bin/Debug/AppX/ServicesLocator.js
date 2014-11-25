@@ -11,16 +11,15 @@
     dictx.register("storageService", Services.StorageService);
     dictx.register("httpService", Services.HttpService);
 
-
-
-
     // ViewModels
     dictx.register("mainViewModel", ViewModels.MainViewModel);
+    dictx.register("demoViewModel", ViewModels.DemoViewModel);
 
     // Initialize
     dictx.initialize();
 
     // Override each ViewModel with instance
     ViewModels.mainViewModel = dictx.get('mainViewModel');
+    ViewModels.demoViewModel = dictx.get('demoViewModel');
 
 })(this, di);

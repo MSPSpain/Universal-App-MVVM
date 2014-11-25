@@ -83,61 +83,53 @@
 
             // Folder
             folder: {
-                create: function (name, path) {
-                    if (path) {
-                        return path.createFolderAsync(name);
-                    }
+                setAsync: function (name) {
                     return localFolder.createFolderAsync();
                 },
 
-                get: function (name, path) {
-                    if (path) {
-                        return path.getFolderAsync(name);
-                    }
+                getAsync: function (name) {
                     return localFolder.getFolderAsync(name);
                 }
             },
 
             // File
             file: {
-                create: function (name, replace, path) {
+                setAsync: function (name, replace) {
                     replace = replace || storage.CreationCollisionOption.replaceExisting;
-                    if (path) {
-                        return path.createFileAsync(name, replace);
-                    }
                     return localFolder.createFileAsync(name, replace );
                 },
 
                 // path: Windows.Storage.KnownFolders.picturesLibrary
-                get: function (name, path) {
-                    if (path) {
-                        return path.getFileAsync(name);
-                    }
+                getAsync: function (name) {
                     return localFolder.getFileAsync(name);
                 },
 
-                remove: function (file) {
+                deleteAsync: function (file) {
                     return file.deleteAsync();
                 },
 
-                writeText: function (file, text) {
+                appendTextAsync: function (file, text) {
                     return fileIO.appendTextAsync(file, text);
                 },
 
-                readText: function (file) {
+                writeTextAsync: function (file, text) {
+                    return fileIO.writeTextAsync(file, text);
+                },
+
+                readTextAsync: function (file) {
                     return fileIO.readTextAsync(file);
                 },
 
-                writeBytes: function (file, text) {
+                writeBytesAsync: function (file, text) {
                     var buffer = getBufferFromString(text); 
                     return fileIO.writeBufferAsync(file, buffer);
                 },
 
-                readBytes: function (file) {
+                readBytesAsync: function (file) {
                     return fileIO.readBufferAsync(file);
                 },
                 
-                copy: function (file, newName, path, replace) {
+                copyAsync: function (file, newName, path, replace) {
                     return file.copyAsync(path || localFolder, newName, replace || storage.NameCollisionOption.replaceExisting);
                 }
             }

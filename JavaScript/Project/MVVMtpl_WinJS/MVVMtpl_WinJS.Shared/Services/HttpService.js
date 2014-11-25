@@ -9,7 +9,7 @@
             user: options.user || null,
             password: options.password || null,
             responseType: 'json' || options.response,
-            data: {} || options.data,
+            data: options.data || {},
             customRequestInitializer: function () { } || options.customRequestInitializer
         });
     }
