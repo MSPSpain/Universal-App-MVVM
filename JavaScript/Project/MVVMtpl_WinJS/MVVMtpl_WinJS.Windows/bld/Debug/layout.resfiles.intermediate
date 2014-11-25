@@ -1,5 +1,7 @@
+AppConfig\_ViewsDictionary.js
+AppConfig\NavigatorService.js
+AppConfig\ServicesLocator.js
 Base\Helpers.js
-Base\ViewsDictionary.js
 Base\WinJS.Messenger.js
 Base\WinJS.ObservableObject.js
 Base\WinJS.RelayCommand.js
@@ -7,10 +9,8 @@ default.js
 Models\Demo.js
 Services\HttpService.js
 Services\NavigatorService.js
-Services\NavigatorServiceConfiguration.js
 Services\NetworkService.js
 Services\StorageService.js
-ServicesLocator.js
 Vendor\di.js
 Vendor\navigator.js
 ViewModels\DemoViewModel.js

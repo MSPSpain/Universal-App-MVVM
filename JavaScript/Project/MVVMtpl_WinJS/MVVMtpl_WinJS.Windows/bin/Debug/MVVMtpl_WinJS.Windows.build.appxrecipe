@@ -53,9 +53,6 @@
     <AppxPackagedFile Include="C:\github\Universal-App-MVVM\JavaScript\Project\MVVMtpl_WinJS\MVVMtpl_WinJS.Shared\Base\Helpers.js">
       <PackagePath>Base\Helpers.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\github\Universal-App-MVVM\JavaScript\Project\MVVMtpl_WinJS\MVVMtpl_WinJS.Shared\Base\ViewsDictionary.js">
-      <PackagePath>Base\ViewsDictionary.js</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github\Universal-App-MVVM\JavaScript\Project\MVVMtpl_WinJS\MVVMtpl_WinJS.Shared\Base\WinJS.Messenger.js">
       <PackagePath>Base\WinJS.Messenger.js</PackagePath>
     </AppxPackagedFile>
@@ -71,9 +68,6 @@
     <AppxPackagedFile Include="C:\github\Universal-App-MVVM\JavaScript\Project\MVVMtpl_WinJS\MVVMtpl_WinJS.Shared\Models\Demo.js">
       <PackagePath>Models\Demo.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\github\Universal-App-MVVM\JavaScript\Project\MVVMtpl_WinJS\MVVMtpl_WinJS.Shared\ServicesLocator.js">
-      <PackagePath>ServicesLocator.js</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github\Universal-App-MVVM\JavaScript\Project\MVVMtpl_WinJS\MVVMtpl_WinJS.Shared\Services\HttpService.js">
       <PackagePath>Services\HttpService.js</PackagePath>
     </AppxPackagedFile>
@@ -82,9 +76,6 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github\Universal-App-MVVM\JavaScript\Project\MVVMtpl_WinJS\MVVMtpl_WinJS.Shared\Services\NetworkService.js">
       <PackagePath>Services\NetworkService.js</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\github\Universal-App-MVVM\JavaScript\Project\MVVMtpl_WinJS\MVVMtpl_WinJS.Shared\Services\NavigatorServiceConfiguration.js">
-      <PackagePath>Services\NavigatorServiceConfiguration.js</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github\Universal-App-MVVM\JavaScript\Project\MVVMtpl_WinJS\MVVMtpl_WinJS.Shared\Services\NavigatorService.js">
       <PackagePath>Services\NavigatorService.js</PackagePath>
@@ -100,6 +91,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github\Universal-App-MVVM\JavaScript\Project\MVVMtpl_WinJS\MVVMtpl_WinJS.Shared\ViewModels\MainViewModel.js">
       <PackagePath>ViewModels\MainViewModel.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\github\Universal-App-MVVM\JavaScript\Project\MVVMtpl_WinJS\MVVMtpl_WinJS.Shared\AppConfig\NavigatorService.js">
+      <PackagePath>AppConfig\NavigatorService.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\github\Universal-App-MVVM\JavaScript\Project\MVVMtpl_WinJS\MVVMtpl_WinJS.Shared\AppConfig\ServicesLocator.js">
+      <PackagePath>AppConfig\ServicesLocator.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\github\Universal-App-MVVM\JavaScript\Project\MVVMtpl_WinJS\MVVMtpl_WinJS.Shared\AppConfig\_ViewsDictionary.js">
+      <PackagePath>AppConfig\_ViewsDictionary.js</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github\Universal-App-MVVM\JavaScript\Project\MVVMtpl_WinJS\MVVMtpl_WinJS.Windows\bin\Debug\ReverseMap\resources.pri">
       <PackagePath>resources.pri</PackagePath>

@@ -20,13 +20,13 @@
     <AppXManifest Include="C:\github\Universal-App-MVVM\JavaScript\Project\MVVMtpl_WinJS\MVVMtpl_WinJS.Windows\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-11-25T16:51:54.777</Modified>
+      <Modified>2014-11-25T17:29:21.197</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\github\Universal-App-MVVM\JavaScript\Project\MVVMtpl_WinJS\MVVMtpl_WinJS.Windows\default.html">
       <PackagePath>default.html</PackagePath>
-      <Modified>2014-11-25T16:59:10.209</Modified>
+      <Modified>2014-11-25T17:28:44.228</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github\Universal-App-MVVM\JavaScript\Project\MVVMtpl_WinJS\MVVMtpl_WinJS.Windows\Views\DemoPage.html">
       <PackagePath>Views\DemoPage.html</PackagePath>
@@ -66,15 +66,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github\Universal-App-MVVM\JavaScript\Project\MVVMtpl_WinJS\MVVMtpl_WinJS.Windows\Views\MainPage.js">
       <PackagePath>Views\MainPage.js</PackagePath>
-      <Modified>2014-11-25T17:02:49.414</Modified>
+      <Modified>2014-11-25T17:27:31.381</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github\Universal-App-MVVM\JavaScript\Project\MVVMtpl_WinJS\MVVMtpl_WinJS.Shared\Base\Helpers.js">
       <PackagePath>Base\Helpers.js</PackagePath>
-      <Modified>2014-10-27T14:39:09.048</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\github\Universal-App-MVVM\JavaScript\Project\MVVMtpl_WinJS\MVVMtpl_WinJS.Shared\Base\ViewsDictionary.js">
-      <PackagePath>Base\ViewsDictionary.js</PackagePath>
-      <Modified>2014-11-25T16:40:48.517</Modified>
+      <Modified>2014-11-25T17:09:23.307</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github\Universal-App-MVVM\JavaScript\Project\MVVMtpl_WinJS\MVVMtpl_WinJS.Shared\Base\WinJS.Messenger.js">
       <PackagePath>Base\WinJS.Messenger.js</PackagePath>
@@ -96,10 +92,6 @@
       <PackagePath>Models\Demo.js</PackagePath>
       <Modified>2014-11-25T16:42:37.195</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\github\Universal-App-MVVM\JavaScript\Project\MVVMtpl_WinJS\MVVMtpl_WinJS.Shared\ServicesLocator.js">
-      <PackagePath>ServicesLocator.js</PackagePath>
-      <Modified>2014-11-25T17:03:35.674</Modified>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github\Universal-App-MVVM\JavaScript\Project\MVVMtpl_WinJS\MVVMtpl_WinJS.Shared\Services\HttpService.js">
       <PackagePath>Services\HttpService.js</PackagePath>
       <Modified>2014-10-30T10:49:31.675</Modified>
@@ -111,10 +103,6 @@
     <AppxPackagedFile Include="C:\github\Universal-App-MVVM\JavaScript\Project\MVVMtpl_WinJS\MVVMtpl_WinJS.Shared\Services\NetworkService.js">
       <PackagePath>Services\NetworkService.js</PackagePath>
       <Modified>2014-10-16T14:07:59.808</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\github\Universal-App-MVVM\JavaScript\Project\MVVMtpl_WinJS\MVVMtpl_WinJS.Shared\Services\NavigatorServiceConfiguration.js">
-      <PackagePath>Services\NavigatorServiceConfiguration.js</PackagePath>
-      <Modified>2014-11-25T16:43:25.553</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github\Universal-App-MVVM\JavaScript\Project\MVVMtpl_WinJS\MVVMtpl_WinJS.Shared\Services\NavigatorService.js">
       <PackagePath>Services\NavigatorService.js</PackagePath>
@@ -136,9 +124,21 @@
       <PackagePath>ViewModels\MainViewModel.js</PackagePath>
       <Modified>2014-11-25T16:59:00.490</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\github\Universal-App-MVVM\JavaScript\Project\MVVMtpl_WinJS\MVVMtpl_WinJS.Shared\AppConfig\NavigatorService.js">
+      <PackagePath>AppConfig\NavigatorService.js</PackagePath>
+      <Modified>2014-11-25T16:43:25.553</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\github\Universal-App-MVVM\JavaScript\Project\MVVMtpl_WinJS\MVVMtpl_WinJS.Shared\AppConfig\ServicesLocator.js">
+      <PackagePath>AppConfig\ServicesLocator.js</PackagePath>
+      <Modified>2014-11-25T17:03:35.674</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\github\Universal-App-MVVM\JavaScript\Project\MVVMtpl_WinJS\MVVMtpl_WinJS.Shared\AppConfig\_ViewsDictionary.js">
+      <PackagePath>AppConfig\_ViewsDictionary.js</PackagePath>
+      <Modified>2014-11-25T16:40:48.517</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github\Universal-App-MVVM\JavaScript\Project\MVVMtpl_WinJS\MVVMtpl_WinJS.Windows\bin\Debug\ReverseMap\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2014-11-25T16:51:54.510</Modified>
+      <Modified>2014-11-25T17:29:20.947</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
