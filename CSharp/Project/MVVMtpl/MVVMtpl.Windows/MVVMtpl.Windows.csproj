@@ -120,7 +120,6 @@
       <SubType>Designer</SubType>
     </AppxManifest>
     <None Include="MVVMtpl.Windows_TemporaryKey.pfx" />
-    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\Logo.scale-100.png" />

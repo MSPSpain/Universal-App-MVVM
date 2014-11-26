@@ -47,17 +47,17 @@ namespace MVVMtpl.ViewModels
 
         private async void CreateFileExecute()
         {
-            await storageService.save_myFile("hola");
+            await storageService.saveAppendTextFile(storageService.getLocalFolder(),"hola");
         }
 
         private async void ReadFileExecute()
         {
-            Message = await storageService.load_myFile();
+            Message = await storageService.loadTextFile(storageService.getLocalFolder());
         }
 
         private async void ClearFileExecute()
         {
-            await storageService.clear_myFile();
+            await storageService.clearTextFile(storageService.getLocalFolder());
         }
 
 

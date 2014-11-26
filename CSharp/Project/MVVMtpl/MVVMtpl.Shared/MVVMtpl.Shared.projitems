@@ -24,14 +24,12 @@
     </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)Base\ObservableObject.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Base\ServiceLocator.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\HttpService.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Services\NavigationService.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Services\NavigationServiceConfiguration.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Services\NetworkService.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Services\StorageService.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ViewModels\ExampleViewModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ViewModels\MainViewModel.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="$(MSBuildThisFileDirectory)Models\" />
   </ItemGroup>
 </Project>

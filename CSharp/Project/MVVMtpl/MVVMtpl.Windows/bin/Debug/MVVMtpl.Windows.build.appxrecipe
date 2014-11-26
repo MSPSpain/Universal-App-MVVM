@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>MININT-2NIRR88</Machine>
+    <WindowsUser>t-joagul</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>bc9f9fe5-9da6-44f7-96b9-dec79cb86df9</PackageIdentityName>
+    <IntermediateOutputPath>C:\GITHUB\Universal-App-MVVM\CSharp\Project\MVVMtpl\MVVMtpl.Windows\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\GITHUB\Universal-App-MVVM\CSharp\Project\MVVMtpl\MVVMtpl.Windows\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\GITHUB\Universal-App-MVVM\CSharp\Project\MVVMtpl\MVVMtpl.Windows\bin\Debug\MVVMtpl.Windows.exe">
+      <PackagePath>MVVMtpl.Windows.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GITHUB\Universal-App-MVVM\CSharp\Project\packages\MvvmLightLibs.5.0.0.0\lib\netcore451\GalaSoft.MvvmLight.dll">
+      <PackagePath>GalaSoft.MvvmLight.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GITHUB\Universal-App-MVVM\CSharp\Project\packages\MvvmLightLibs.5.0.0.0\lib\netcore451\GalaSoft.MvvmLight.Extras.dll">
+      <PackagePath>GalaSoft.MvvmLight.Extras.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GITHUB\Universal-App-MVVM\CSharp\Project\packages\MvvmLightLibs.5.0.0.0\lib\netcore451\GalaSoft.MvvmLight.Platform.dll">
+      <PackagePath>GalaSoft.MvvmLight.Platform.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GITHUB\Universal-App-MVVM\CSharp\Project\packages\CommonServiceLocator.1.3\lib\portable-net4+sl5+netcore45+wpa81+wp8\Microsoft.Practices.ServiceLocation.dll">
+      <PackagePath>Microsoft.Practices.ServiceLocation.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GITHUB\Universal-App-MVVM\CSharp\Project\packages\Unity.3.5.1405-prerelease\lib\win8\Microsoft.Practices.Unity.dll">
+      <PackagePath>Microsoft.Practices.Unity.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GITHUB\Universal-App-MVVM\CSharp\Project\packages\Unity.3.5.1405-prerelease\lib\win8\Microsoft.Practices.Unity.RegistrationByConvention.dll">
+      <PackagePath>Microsoft.Practices.Unity.RegistrationByConvention.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GITHUB\Universal-App-MVVM\CSharp\Project\MVVMtpl\MVVMtpl.Windows\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GITHUB\Universal-App-MVVM\CSharp\Project\MVVMtpl\MVVMtpl.Windows\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GITHUB\Universal-App-MVVM\CSharp\Project\MVVMtpl\MVVMtpl.Windows\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GITHUB\Universal-App-MVVM\CSharp\Project\MVVMtpl\MVVMtpl.Windows\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GITHUB\Universal-App-MVVM\CSharp\Project\MVVMtpl\MVVMtpl.Windows\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GITHUB\Universal-App-MVVM\CSharp\Project\MVVMtpl\MVVMtpl.Windows\bin\Debug\Views\ExamplePage.xbf">
+      <PackagePath>Views\ExamplePage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GITHUB\Universal-App-MVVM\CSharp\Project\MVVMtpl\MVVMtpl.Windows\bin\Debug\Views\MainPage.xbf">
+      <PackagePath>Views\MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GITHUB\Universal-App-MVVM\CSharp\Project\MVVMtpl\MVVMtpl.Windows\bin\Debug\MVVMtpl.Windows.xr.xml">
+      <PackagePath>MVVMtpl.Windows.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GITHUB\Universal-App-MVVM\CSharp\Project\MVVMtpl\MVVMtpl.Windows\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
