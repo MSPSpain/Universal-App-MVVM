@@ -13,6 +13,7 @@
     <SharedGUID>6a732649-18c2-498c-96aa-23d2bb6deabc</SharedGUID>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="$(MSBuildThisFileDirectory)Base\BindingMode.js" />
     <Content Include="$(MSBuildThisFileDirectory)Base\Helpers.js" />
     <Content Include="$(MSBuildThisFileDirectory)Base\WinJS.Messenger.js" />
     <Content Include="$(MSBuildThisFileDirectory)Base\WinJS.ObservableObject.js" />

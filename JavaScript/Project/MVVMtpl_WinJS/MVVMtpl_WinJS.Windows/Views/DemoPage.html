@@ -1,1 +1,15 @@
-﻿Demo Page
+﻿<div class="sectionpage fragment">
+    <header aria-label="Header content" role="banner">
+        <button data-win-control="WinJS.UI.BackButton"></button>
+        <h1 class="titlearea win-type-ellipsis">
+            <span class="pagetitle">Demo Page</span>
+        </h1>
+    </header>
+    <section role="main">
+        <article class="itemslist">
+            <p>This is a demo page.</p>
+            <span data-win-bind="innerText: obs.hello"></span> <br />
+            <input type="text" data-win-bind="value: obs.hello Binding.Mode.twoway">
+        </article>
+    </section>
+</div>

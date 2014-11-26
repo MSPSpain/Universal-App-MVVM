@@ -8,10 +8,6 @@
         },
 
         {
-            ready: function() {
-                // Dependencies loaded
-            },
-
             navigateToDemo: function () {
                 this.navigatorService.navigate("DemoViewModel");
             }

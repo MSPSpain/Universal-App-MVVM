@@ -1,6 +1,7 @@
 AppConfig\NavigatorService.js
 AppConfig\ServicesLocator.js
 AppConfig\ViewsDictionary.js
+Base\BindingMode.js
 Base\Helpers.js
 Base\WinJS.Messenger.js
 Base\WinJS.ObservableObject.js
@@ -16,6 +17,8 @@ Vendor\navigator.js
 ViewModels\DemoViewModel.js
 ViewModels\MainViewModel.js
 css\default.css
+css\hub.css
+css\section.css
 default.html
 images\logo.png
 images\smalllogo.png
