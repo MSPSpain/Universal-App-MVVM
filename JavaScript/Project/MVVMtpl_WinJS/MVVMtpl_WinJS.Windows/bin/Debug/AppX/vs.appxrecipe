@@ -42,11 +42,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github\Universal-App-MVVM\JavaScript\Project\MVVMtpl_WinJS\MVVMtpl_WinJS.Windows\Views\DemoPage.html">
       <PackagePath>Views\DemoPage.html</PackagePath>
-      <Modified>2014-11-26T16:24:25.134</Modified>
+      <Modified>2014-11-26T17:11:07.694</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github\Universal-App-MVVM\JavaScript\Project\MVVMtpl_WinJS\MVVMtpl_WinJS.Windows\Views\MainPage.html">
       <PackagePath>Views\MainPage.html</PackagePath>
-      <Modified>2014-11-26T15:58:56.743</Modified>
+      <Modified>2014-11-26T16:46:27.768</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github\Universal-App-MVVM\JavaScript\Project\MVVMtpl_WinJS\MVVMtpl_WinJS.Windows\images\logo.png">
       <PackagePath>images\logo.png</PackagePath>
@@ -70,11 +70,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github\Universal-App-MVVM\JavaScript\Project\MVVMtpl_WinJS\MVVMtpl_WinJS.Windows\Views\DemoPage.js">
       <PackagePath>Views\DemoPage.js</PackagePath>
-      <Modified>2014-11-26T16:18:46.004</Modified>
+      <Modified>2014-11-26T17:23:58.872</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github\Universal-App-MVVM\JavaScript\Project\MVVMtpl_WinJS\MVVMtpl_WinJS.Windows\Views\MainPage.js">
       <PackagePath>Views\MainPage.js</PackagePath>
-      <Modified>2014-11-26T15:25:47.865</Modified>
+      <Modified>2014-11-26T16:46:13.340</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github\Universal-App-MVVM\JavaScript\Project\MVVMtpl_WinJS\MVVMtpl_WinJS.Shared\Base\BindingMode.js">
       <PackagePath>Base\BindingMode.js</PackagePath>
@@ -142,11 +142,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github\Universal-App-MVVM\JavaScript\Project\MVVMtpl_WinJS\MVVMtpl_WinJS.Shared\ViewModels\DemoViewModel.js">
       <PackagePath>ViewModels\DemoViewModel.js</PackagePath>
-      <Modified>2014-11-26T16:22:45.265</Modified>
+      <Modified>2014-11-26T16:47:03.285</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github\Universal-App-MVVM\JavaScript\Project\MVVMtpl_WinJS\MVVMtpl_WinJS.Shared\ViewModels\MainViewModel.js">
       <PackagePath>ViewModels\MainViewModel.js</PackagePath>
-      <Modified>2014-11-26T14:30:52.451</Modified>
+      <Modified>2014-11-26T16:46:04.646</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github\Universal-App-MVVM\JavaScript\Project\MVVMtpl_WinJS\MVVMtpl_WinJS.Windows\bin\Debug\ReverseMap\resources.pri">
       <PackagePath>resources.pri</PackagePath>

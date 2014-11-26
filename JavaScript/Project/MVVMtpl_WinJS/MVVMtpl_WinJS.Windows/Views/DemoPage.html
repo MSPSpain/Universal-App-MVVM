@@ -12,4 +12,9 @@
             <input type="text" data-win-bind="value: obs.hello Binding.Mode.twoway">
         </article>
     </section>
+
+    <div class="appbar" data-win-control="WinJS.UI.AppBar" data-win-options="{sticky: true}">
+        <button data-win-control="WinJS.UI.AppBarCommand" data-win-options="{id: 'onlineCommand', label:'Online', icon:'world', disabled: true}" type="button"></button>
+        <button data-win-control="WinJS.UI.AppBarCommand" data-win-options="{id: 'offlineCommand',label:'Offline', icon:'disconnectdrive', disabled: true}" type="button"></button>
+    </div>
 </div>
