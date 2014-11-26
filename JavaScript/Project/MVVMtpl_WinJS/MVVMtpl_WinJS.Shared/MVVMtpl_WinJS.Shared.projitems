@@ -18,18 +18,18 @@
     <Content Include="$(MSBuildThisFileDirectory)Base\WinJS.ObservableObject.js" />
     <Content Include="$(MSBuildThisFileDirectory)Base\WinJS.RelayCommand.js" />
     <Content Include="$(MSBuildThisFileDirectory)default.js" />
+    <Content Include="$(MSBuildThisFileDirectory)AppConfig\NavigatorService.js" />
+    <Content Include="$(MSBuildThisFileDirectory)AppConfig\ServicesLocator.js" />
+    <Content Include="$(MSBuildThisFileDirectory)AppConfig\ViewsDictionary.js" />
     <Content Include="$(MSBuildThisFileDirectory)Models\Demo.js" />
     <Content Include="$(MSBuildThisFileDirectory)Services\HttpService.js" />
-    <Content Include="$(MSBuildThisFileDirectory)Services\StorageService.js" />
-    <Content Include="$(MSBuildThisFileDirectory)Services\NetworkService.js" />
     <Content Include="$(MSBuildThisFileDirectory)Services\NavigatorService.js" />
+    <Content Include="$(MSBuildThisFileDirectory)Services\NetworkService.js" />
+    <Content Include="$(MSBuildThisFileDirectory)Services\StorageService.js" />
     <Content Include="$(MSBuildThisFileDirectory)Vendor\di.js" />
     <Content Include="$(MSBuildThisFileDirectory)Vendor\navigator.js" />
     <Content Include="$(MSBuildThisFileDirectory)ViewModels\DemoViewModel.js" />
     <Content Include="$(MSBuildThisFileDirectory)ViewModels\MainViewModel.js" />
-    <Content Include="$(MSBuildThisFileDirectory)AppConfig\NavigatorService.js" />
-    <Content Include="$(MSBuildThisFileDirectory)AppConfig\ServicesLocator.js" />
-    <Content Include="$(MSBuildThisFileDirectory)AppConfig\_ViewsDictionary.js" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="$(MSBuildThisFileDirectory)Services\Local\" />

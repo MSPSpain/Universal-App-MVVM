@@ -1,6 +1,6 @@
-AppConfig\_ViewsDictionary.js
 AppConfig\NavigatorService.js
 AppConfig\ServicesLocator.js
+AppConfig\ViewsDictionary.js
 Base\Helpers.js
 Base\WinJS.Messenger.js
 Base\WinJS.ObservableObject.js
