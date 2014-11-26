@@ -1,0 +1,28 @@
+{
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "*",
+    "gulp-load-plugins": "*",
+    "gulp-clean": "~0.2.4",
+    "gulp-htmlbuild": "*",
+    "gulp-concat": "*",
+    "gulp-clone": "*",
+    "gulp-rename": "*",
+    "gulp-inject": "*",
+    "gulp-minify-css": "*",
+    "gulp-minify-html": "~0.1.0",
+    "gulp-sass": "*",
+    "gulp-uglify": "*",
+    "gulp-util": "*",
+    "gulp-usemin": "~0.3.2",
+    "run-sequence": "~1.0.1"
+  },
+  "main": "gulpfile.js",
+  "author": {
+    "name": "Quique Fernandez",
+    "url": "http://twitter.com/CKGrafico"
+  },
+  "contributors": [
+    {}
+  ]
+}
