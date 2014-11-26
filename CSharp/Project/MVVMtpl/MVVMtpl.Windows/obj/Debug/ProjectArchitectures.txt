@@ -1,0 +1,1 @@
+C:\GITHUB\Universal-App-MVVM\CSharp\Project\MVVMtpl\MVVMtpl.Windows\MVVMtpl.Windows.csproj;neutral
