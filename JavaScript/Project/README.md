@@ -15,19 +15,31 @@
     - [default.html](#defaulthtml) 
     - [css](#css) 
     - [Views](#views) 
-5. Windows Phone Project
-    - [`default.html`](#default2)
-    - [css](#css2)
-    - Views
-6. Gulp Project
+5. [Windows Phone Project](#windows-phone-project) 
+    - [default.html](#wp-defaulthtml)
+    - [css](#wp-css)
+    - [Views](#wp-views)
+6. [Gulp Project](#gulp-project) 
 
 ## Introduction
 ## MVVM pattern
 ## Shared Projects
 ### default.js
 ### Vendor
-
-[](#default2)
+### Base
+### Services
+### ViewModels
+### Models
+### AppConfig
+## Windows Project
 ### default.html
-[](#css2)
 ### css
+### Views
+
+## Windows Phone Project
+<a name="wp-defaulthtml" />
+### default.html
+<a name="wp-css" />
+### css
+<a name="wp-views" />
+### Views
