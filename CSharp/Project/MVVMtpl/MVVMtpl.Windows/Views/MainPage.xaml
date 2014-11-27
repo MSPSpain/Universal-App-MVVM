@@ -8,35 +8,23 @@
     mc:Ignorable="d"
     DataContext="{Binding MainViewModel, Source={StaticResource Locator}}">
 
-    <StackPanel>
-        <TextBlock 
-            Text="Static text"
-            FontSize="60"
-            />
-        <TextBlock 
-            Text="{Binding Message}"
-            FontSize="60"
-            />
-        <TextBox 
-            Text="{Binding Message, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
-            />
+    <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
+        <Hub>
+            <Hub.Header>
+                <Grid Margin="0,20,0,0">
+                    <TextBlock x:Name="pageTitle" Text="App Header" 
+                               Style="{StaticResource HeaderTextBlockStyle}" 
+                               IsHitTestVisible="false" TextWrapping="NoWrap" 
+                               VerticalAlignment="Top"/>
+                </Grid>
+            </Hub.Header>
+            <HubSection Width="1000" Background="Gray">
+                
+            </HubSection>
+            <HubSection Header="Images" Margin="80,0,0,0">
+                
+            </HubSection>
+        </Hub>
+    </Grid>
 
-        <Button
-            Command="{Binding NavigateToCommand}"
-            Content="Navigate to Example"
-            />
-        <Button
-            Command="{Binding CreateFileCommand}"
-            Content="Create file"
-            />
-        <Button
-            Command="{Binding ReadFileCommand}"
-            Content="Read file"
-            />
-        <Button
-            Command="{Binding ClearFileCommand}"
-            Content="Clear file"
-            />
-        
-    </StackPanel>
 </Page>
