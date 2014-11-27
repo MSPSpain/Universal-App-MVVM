@@ -7,10 +7,10 @@
     - [default.js](#defaultjs) 
     - [Vendor](#vendor) 
     - [Base](#base) 
+    - [AppConfig](#appconfig) 
     - [Services](#services) 
     - [ViewModels](#viewmodels) 
     - [Models](#models) 
-    - [AppConfig](#appconfig) 
 4. [Windows Project](#windows-project) 
     - [default.html](#defaulthtml) 
     - [css](#css) 
@@ -22,15 +22,133 @@
 6. [Gulp Project](#gulp-project) 
 
 ## Introduction
+This template helps you to make Universal Apps based in MVVM Pattern with HTML5, this template don't teach you anything about MVVM but learn about this pattern and after that return here and enjoy coding!
 ## MVVM pattern
+Model-View View-Model is a design pattern, you can learn about this pattern [in the documentation](http://msdn.microsoft.com/en-us/library/gg405484.aspx).
+![MVVM Example](http://i.imgur.com/TMp4RsZ.png)
 ## Shared Projects
 ### default.js
+This file is exactly the same than default Visual Studio template.
 ### Vendor
+Here we have our template dependencies, navigate.js (same as VS default template) and [di.js](https://github.com/NickQiZhu/di.js) for dependency injection.
 ### Base
-### Services
-### ViewModels
-### Models
+There are specific libraries for our template, made by us.
+
+You can modify each of this files if you want, but we recommend this:
+
+**Don't touch:**
+
+- WinJS.Messenger
+- WinJS.ObservableObject
+- WinJS.RelayCommand
+
+**Please, modify if you want:**
+
+- Helpers (Namespace to put our helpders)
+- BindingMode (To add diferent Binding Modes, for default Command, Binding.Mode.twoway)
 ### AppConfig
+In this folder we have our app configuration, you can edit these files:
+
+- [NavigatorService](https://github.com/MSPSpain/Universal-App-MVVM/blob/master/JavaScript/Project/MVVMtpl_WinJS/MVVMtpl_WinJS.Shared/AppConfig/NavigatorService.js)
+- [ServicesLocator](https://github.com/MSPSpain/Universal-App-MVVM/blob/master/JavaScript/Project/MVVMtpl_WinJS/MVVMtpl_WinJS.Shared/AppConfig/ServicesLocator.js)
+- [ViewsDictionary](https://github.com/MSPSpain/Universal-App-MVVM/blob/master/JavaScript/Project/MVVMtpl_WinJS/MVVMtpl_WinJS.Shared/AppConfig/ViewsDictionary.js)
+
+You will learn more about the files along the following lines.
+
+### Services
+You can find public services and folder to use with localservices, you can learn about these services in the code.
+
+- [HttpService](https://github.com/MSPSpain/Universal-App-MVVM/blob/master/JavaScript/Project/MVVMtpl_WinJS/MVVMtpl_WinJS.Shared/Services/HttpService.js)
+- [NavigatorService](https://github.com/MSPSpain/Universal-App-MVVM/blob/master/JavaScript/Project/MVVMtpl_WinJS/MVVMtpl_WinJS.Shared/Services/NavigatorService.js)
+- [NetworkService](https://github.com/MSPSpain/Universal-App-MVVM/blob/master/JavaScript/Project/MVVMtpl_WinJS/MVVMtpl_WinJS.Shared/Services/NetworkService.js)
+- [StorageService](https://github.com/MSPSpain/Universal-App-MVVM/blob/master/JavaScript/Project/MVVMtpl_WinJS/MVVMtpl_WinJS.Shared/Services/StorageService.js)
+
+To make new Service
+
+1. Create Service
+**Shared/Services/MyService.js**
+```
+(function (g, WinJS) {
+    "use strict";
+
+    var MyService = WinJS.Class.define(
+        
+    );
+
+    WinJS.Namespace.define("Services", {
+        MyService: MyService
+    });
+})(this, WinJS);
+
+```
+
+2. Register the Service
+**Shared/Services/ServicesLocator.js**
+```
+dictx.register("myService", Services.MyService);
+```
+
+### ViewModels
+To make new ViewModel:
+
+1. Create ViewModel file and code:
+**Shared/ViewModels/MainViewModel.js**
+
+```
+(function (g, WinJS) {
+    "use strict";
+
+    var MainViewModel = WinJS.Class.define(
+        function () {
+            this.dependencies = "navigatorService, myService";
+        },
+
+        {
+            ready: function () {
+                // Dependencies loaded
+                this.navigatorService.navigate('OtherViewModel');
+            },
+        }
+    );
+
+    WinJS.Namespace.define("ViewModels", {
+        MainViewModel: MainViewModel
+    });
+})(this, WinJS);
+
+```
+
+2. Register the ViewModel
+**Shared/Services/ServicesLocator.js**
+
+```
+dictx.register("mainViewModel", ViewModels.MainViewModel);
+ViewModels.mainViewModel = dictx.get('mainViewModel');
+```
+### Models
+To make new Model:
+
+1. Create Model file and code:
+**Shared/Models/Demo.js**
+
+```
+(function (g, WinJS, Helpers) {
+    "use strict";
+    var Demo = WinJS.Class.define(
+        function () {
+            this.property = 'Demo model';
+        },
+
+        {
+        }
+    );
+
+    WinJS.Namespace.define("Models", {
+        Demo: Demo
+    });
+})(this, WinJS, Helpers);
+```
+
 ## Windows Project
 ### default.html
 ### css
@@ -43,3 +161,4 @@
 ### css
 <a name="wp-views" />
 ### Views
+##Gulp Project
