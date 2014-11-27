@@ -13,6 +13,11 @@ Project("{262852C6-CD72-467D-83FE-5EEB1973A190}") = "MVVMtpl_WinJS.WindowsPhone"
 EndProject
 Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "Gulp", "Gulp\Gulp.njsproj", "{98649407-B566-4661-87CF-B3DFBABFD007}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2BBCDCAD-E036-464E-A634-2532092E98EE}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		MVVMtpl_WinJS\MVVMtpl_WinJS.Shared\MVVMtpl_WinJS.Shared.projitems*{da7adf2a-e3b6-4d4f-8ce2-83434b783f0a}*SharedItemsImports = 5
