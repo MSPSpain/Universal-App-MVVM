@@ -1,8 +1,8 @@
 # Project documentation
 
 ##Index
-1. [Introduction](#Introduction) 
-2. What's MVVM
+1. [Introduction](#introduction) 
+2. [MVVM pattern](#mvvm-pattern) 
 3. Shared Project
     - default.js
     - Vendor
@@ -22,3 +22,4 @@
 6. Gulp Project
 
 ## Introduction
+## MVVM pattern
