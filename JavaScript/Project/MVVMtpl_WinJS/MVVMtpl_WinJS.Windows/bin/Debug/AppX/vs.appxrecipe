@@ -46,7 +46,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github\Universal-App-MVVM\JavaScript\Project\MVVMtpl_WinJS\MVVMtpl_WinJS.Windows\Views\MainPage.html">
       <PackagePath>Views\MainPage.html</PackagePath>
-      <Modified>2014-11-26T16:46:27.768</Modified>
+      <Modified>2014-11-27T10:50:04.451</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github\Universal-App-MVVM\JavaScript\Project\MVVMtpl_WinJS\MVVMtpl_WinJS.Windows\images\logo.png">
       <PackagePath>images\logo.png</PackagePath>
@@ -70,7 +70,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github\Universal-App-MVVM\JavaScript\Project\MVVMtpl_WinJS\MVVMtpl_WinJS.Windows\Views\DemoPage.js">
       <PackagePath>Views\DemoPage.js</PackagePath>
-      <Modified>2014-11-26T17:23:58.872</Modified>
+      <Modified>2014-11-26T17:26:10.940</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github\Universal-App-MVVM\JavaScript\Project\MVVMtpl_WinJS\MVVMtpl_WinJS.Windows\Views\MainPage.js">
       <PackagePath>Views\MainPage.js</PackagePath>
@@ -78,7 +78,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github\Universal-App-MVVM\JavaScript\Project\MVVMtpl_WinJS\MVVMtpl_WinJS.Shared\Base\BindingMode.js">
       <PackagePath>Base\BindingMode.js</PackagePath>
-      <Modified>2014-11-26T16:23:23.356</Modified>
+      <Modified>2014-11-27T10:54:43.046</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github\Universal-App-MVVM\JavaScript\Project\MVVMtpl_WinJS\MVVMtpl_WinJS.Shared\Base\Helpers.js">
       <PackagePath>Base\Helpers.js</PackagePath>
@@ -142,7 +142,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github\Universal-App-MVVM\JavaScript\Project\MVVMtpl_WinJS\MVVMtpl_WinJS.Shared\ViewModels\DemoViewModel.js">
       <PackagePath>ViewModels\DemoViewModel.js</PackagePath>
-      <Modified>2014-11-26T16:47:03.285</Modified>
+      <Modified>2014-11-26T17:26:06.770</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github\Universal-App-MVVM\JavaScript\Project\MVVMtpl_WinJS\MVVMtpl_WinJS.Shared\ViewModels\MainViewModel.js">
       <PackagePath>ViewModels\MainViewModel.js</PackagePath>

@@ -21,7 +21,6 @@
         },
 
         onChangeConnection: function (connection) {
-            console.log('connection');
             if (connection) {
                 appbar.hideCommands(['offlineCommand']);
                 appbar.showCommands(['onlineCommand']);

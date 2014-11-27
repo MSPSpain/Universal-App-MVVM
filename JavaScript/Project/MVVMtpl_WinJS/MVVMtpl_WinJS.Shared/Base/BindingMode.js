@@ -16,4 +16,11 @@
     WinJS.Namespace.define("Binding.Mode", {
         twoway: twoway
     });
+
+    g.Command = WinJS.Binding.initializer(function (source, sourceProps, dest, destProps) {
+        WinJS.Binding.defaultBind(source, sourceProps, dest, destProps);
+        dest[destProps[0]] = function () {
+            source[sourceProps[0]].execute();
+        }
+    });
 })(this, WinJS);
