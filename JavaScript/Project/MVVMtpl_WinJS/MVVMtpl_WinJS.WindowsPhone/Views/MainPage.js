@@ -10,6 +10,8 @@
 
             WinJS.Binding.processAll(element, viewModel);
 
+            // Appbar status (only phone)
+            document.querySelector('.appbar').winControl.showOnlyCommands([]);
         }
     });
 })(this, WinJS);

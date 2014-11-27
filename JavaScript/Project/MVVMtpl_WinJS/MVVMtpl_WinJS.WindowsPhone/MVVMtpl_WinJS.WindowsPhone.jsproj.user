@@ -2,5 +2,6 @@
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <ReferenceCachePath>C:\Users\t-enfern\AppData\Local\Temp\MVVMtpl_WinJS.WindowsPhone_refcache</ReferenceCachePath>
+    <ShowAllFiles>false</ShowAllFiles>
   </PropertyGroup>
 </Project>

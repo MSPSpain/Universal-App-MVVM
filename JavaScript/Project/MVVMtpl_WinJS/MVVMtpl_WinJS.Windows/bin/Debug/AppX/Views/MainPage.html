@@ -1,2 +1,24 @@
-﻿<span data-win-bind="innerText:a"></span>
-<button data-win-bind="onclick: navigateCommand.execute">Refresh</button>
+﻿<div class="hubpage fragment">
+    <header aria-label="Header content" role="banner">
+        <button class="backbutton" data-win-control="WinJS.UI.BackButton"></button>
+        <h1 class="titlearea win-type-ellipsis">
+            <span class="pagetitle">Main Page</span>
+        </h1>
+    </header>
+
+    <section role="main">
+        <div class="hub" data-win-control="WinJS.UI.Hub">
+            <div class="hero" data-win-control="WinJS.UI.HubSection"></div>
+
+            <div data-win-control="WinJS.UI.HubSection"
+                 data-win-options="{ header: 'Section', isHeaderStatic: true }">
+
+                <p>This is my main page</p>
+                <button data-win-bind="onclick: navigateCommand Command">Navigate</button>
+
+                <p>Click to change Demo Page count</p>
+                <button data-win-bind="onclick: countCommand Command">Click me!</button>
+            </div>
+        </div>
+    </section>
+</div>

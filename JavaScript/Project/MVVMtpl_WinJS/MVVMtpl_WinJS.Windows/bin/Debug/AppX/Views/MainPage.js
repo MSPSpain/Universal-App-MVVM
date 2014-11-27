@@ -9,6 +9,7 @@
             var viewModel = ViewModels.mainViewModel;
 
             WinJS.Binding.processAll(element, viewModel);
+
         }
     });
 })(this, WinJS);

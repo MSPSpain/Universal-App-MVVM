@@ -16,6 +16,15 @@
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
+    <AppxPackagedFile Include="C:\github\Universal-App-MVVM\JavaScript\Project\MVVMtpl_WinJS\MVVMtpl_WinJS.Windows\css\hub.css">
+      <PackagePath>css\hub.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\github\Universal-App-MVVM\JavaScript\Project\MVVMtpl_WinJS\MVVMtpl_WinJS.Windows\css\section.css">
+      <PackagePath>css\section.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\github\Universal-App-MVVM\JavaScript\Project\MVVMtpl_WinJS\MVVMtpl_WinJS.Windows\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github\Universal-App-MVVM\JavaScript\Project\MVVMtpl_WinJS\MVVMtpl_WinJS.Windows\default.html">
       <PackagePath>default.html</PackagePath>
     </AppxPackagedFile>
@@ -41,14 +50,14 @@
       <PackagePath>images\storelogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\github\Universal-App-MVVM\JavaScript\Project\MVVMtpl_WinJS\MVVMtpl_WinJS.Windows\css\default.css">
-      <PackagePath>css\default.css</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github\Universal-App-MVVM\JavaScript\Project\MVVMtpl_WinJS\MVVMtpl_WinJS.Windows\Views\DemoPage.js">
       <PackagePath>Views\DemoPage.js</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github\Universal-App-MVVM\JavaScript\Project\MVVMtpl_WinJS\MVVMtpl_WinJS.Windows\Views\MainPage.js">
       <PackagePath>Views\MainPage.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\github\Universal-App-MVVM\JavaScript\Project\MVVMtpl_WinJS\MVVMtpl_WinJS.Shared\Base\BindingMode.js">
+      <PackagePath>Base\BindingMode.js</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github\Universal-App-MVVM\JavaScript\Project\MVVMtpl_WinJS\MVVMtpl_WinJS.Shared\Base\Helpers.js">
       <PackagePath>Base\Helpers.js</PackagePath>

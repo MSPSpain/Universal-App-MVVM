@@ -12,6 +12,9 @@
 
             WinJS.Binding.processAll(element, viewModel);
 
+            // Appbar status (only phone)
+            document.querySelector('.appbar').winControl.showOnlyCommands(['offlineCommand', 'onlineCommand']);
+
             // Change appbar depending of internet
             appbar = document.querySelector('.appbar').winControl;
             viewModel.obs.bind('connection', this.onChangeConnection);

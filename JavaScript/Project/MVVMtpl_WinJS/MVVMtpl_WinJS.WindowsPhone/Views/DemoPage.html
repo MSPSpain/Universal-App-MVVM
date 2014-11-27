@@ -1,0 +1,22 @@
+﻿<div class="hubpage fragment">
+    <header aria-label="Header content" role="banner">
+        <h1 class="titlearea win-type-ellipsis">
+            <span class="pagetitle">Main Page</span>
+        </h1>
+    </header>
+
+    <section role="main">
+        <div class="hub" data-win-control="WinJS.UI.Pivot">
+            <div data-win-control="WinJS.UI.PivotItem">
+                <article>
+                    <p>This is a demo page.</p>
+                    <span data-win-bind="innerText: obs.hello"></span> <br />
+                    <input type="text" data-win-bind="value: obs.hello Binding.Mode.twoway">
+
+                    <p>Count times:</p>
+                    <span data-win-bind="innerText: obs.count"></span> <br />
+                </article>
+            </div>
+        </div>
+    </section>
+</div>

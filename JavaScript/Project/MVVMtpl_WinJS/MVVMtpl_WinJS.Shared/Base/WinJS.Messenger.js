@@ -1,15 +1,15 @@
 ﻿(function (g, WinJS) {
     var Messenger = {
         on: function (name, callback, scope) {
-            WinJS.Application.addEventListener(name, function () { callback.call(scope || this) }, false);
+            WinJS.Application.addEventListener(name, function (e) { callback.call(scope || this, e.value) }, false);
         },
 
         off: function (name, callback, scope) {
-            WinJS.Application.removeEventListener(name, function () { callback.call(scope || this) }, false);
+            WinJS.Application.removeEventListener(name, function (e) { callback.call(scope || this, e.value) }, false);
         },
 
-        trigger: function (name) {
-            WinJS.Application.queueEvent({ type: name });
+        trigger: function (name, value) {
+            WinJS.Application.queueEvent({ type: name, value: value });
         }
     };
 
