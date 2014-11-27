@@ -6,18 +6,18 @@
 3. [Shared Project](#shared-projects) 
     - [default.js](#defaultjs) 
     - [Vendor](#vendor) 
-    - Base
-    - Services
-    - ViewModels
-    - Models
-    - AppConfig
-4. Windows Project
-    - default.html
-    - css
-    - Views
+    - [Base](#base) 
+    - [Services](#services) 
+    - [ViewModels](#viewmodels) 
+    - [Models](#models) 
+    - [AppConfig](#appconfig) 
+4. [Windows Project](#windows-project) 
+    - [default.html](#defaulthtml) 
+    - [css](#css) 
+    - [Views](#views) 
 5. Windows Phone Project
-    - default.html
-    - css
+    - [`default.html`](#default2)
+    - [css](#css2)
     - Views
 6. Gulp Project
 
@@ -26,3 +26,8 @@
 ## Shared Projects
 ### default.js
 ### Vendor
+
+[](#default2)
+### default.html
+[](#css2)
+### css
