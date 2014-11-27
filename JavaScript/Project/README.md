@@ -2,10 +2,10 @@
 
 ##Index
 1. [Introduction](#introduction) 
-2. [MVVM pattern](#mvvm-pattern) 
-3. Shared Project
-    - default.js
-    - Vendor
+2. [MVVM Pattern](#mvvm-pattern) 
+3. [Shared Project](#shared-projects) 
+    - [default.js](#defaultjs) 
+    - [Vendor](#vendor) 
     - Base
     - Services
     - ViewModels
@@ -23,3 +23,6 @@
 
 ## Introduction
 ## MVVM pattern
+## Shared Projects
+### default.js
+### Vendor
