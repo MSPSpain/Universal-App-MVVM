@@ -6,10 +6,13 @@
         </h1>
     </header>
     <section role="main">
-        <article class="itemslist">
+        <article>
             <p>This is a demo page.</p>
             <span data-win-bind="innerText: obs.hello"></span> <br />
             <input type="text" data-win-bind="value: obs.hello Binding.Mode.twoway">
+
+            <p>Count times:</p>
+            <span data-win-bind="innerText: obs.count"></span> <br />
         </article>
     </section>
 

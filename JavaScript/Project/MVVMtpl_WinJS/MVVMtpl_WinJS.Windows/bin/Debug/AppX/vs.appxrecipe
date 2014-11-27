@@ -42,11 +42,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github\Universal-App-MVVM\JavaScript\Project\MVVMtpl_WinJS\MVVMtpl_WinJS.Windows\Views\DemoPage.html">
       <PackagePath>Views\DemoPage.html</PackagePath>
-      <Modified>2014-11-26T17:11:07.694</Modified>
+      <Modified>2014-11-27T11:27:53.862</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github\Universal-App-MVVM\JavaScript\Project\MVVMtpl_WinJS\MVVMtpl_WinJS.Windows\Views\MainPage.html">
       <PackagePath>Views\MainPage.html</PackagePath>
-      <Modified>2014-11-27T10:50:04.451</Modified>
+      <Modified>2014-11-27T11:26:36.769</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github\Universal-App-MVVM\JavaScript\Project\MVVMtpl_WinJS\MVVMtpl_WinJS.Windows\images\logo.png">
       <PackagePath>images\logo.png</PackagePath>
@@ -86,7 +86,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github\Universal-App-MVVM\JavaScript\Project\MVVMtpl_WinJS\MVVMtpl_WinJS.Shared\Base\WinJS.Messenger.js">
       <PackagePath>Base\WinJS.Messenger.js</PackagePath>
-      <Modified>2014-11-25T16:28:36.562</Modified>
+      <Modified>2014-11-27T11:23:36.548</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github\Universal-App-MVVM\JavaScript\Project\MVVMtpl_WinJS\MVVMtpl_WinJS.Shared\Base\WinJS.ObservableObject.js">
       <PackagePath>Base\WinJS.ObservableObject.js</PackagePath>
@@ -142,11 +142,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github\Universal-App-MVVM\JavaScript\Project\MVVMtpl_WinJS\MVVMtpl_WinJS.Shared\ViewModels\DemoViewModel.js">
       <PackagePath>ViewModels\DemoViewModel.js</PackagePath>
-      <Modified>2014-11-26T17:26:06.770</Modified>
+      <Modified>2014-11-27T11:20:18.868</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github\Universal-App-MVVM\JavaScript\Project\MVVMtpl_WinJS\MVVMtpl_WinJS.Shared\ViewModels\MainViewModel.js">
       <PackagePath>ViewModels\MainViewModel.js</PackagePath>
-      <Modified>2014-11-26T16:46:04.646</Modified>
+      <Modified>2014-11-27T11:18:45.377</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github\Universal-App-MVVM\JavaScript\Project\MVVMtpl_WinJS\MVVMtpl_WinJS.Windows\bin\Debug\ReverseMap\resources.pri">
       <PackagePath>resources.pri</PackagePath>

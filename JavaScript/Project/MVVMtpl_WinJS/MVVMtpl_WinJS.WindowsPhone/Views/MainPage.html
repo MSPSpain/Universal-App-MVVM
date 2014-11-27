@@ -1,0 +1,23 @@
+﻿<div class="hubpage fragment">
+    <header aria-label="Header content" role="banner">
+        <h1 class="titlearea win-type-ellipsis">
+            <span class="pagetitle">Main Page</span>
+        </h1>
+    </header>
+
+    <section role="main">
+        <div class="hub" data-win-control="WinJS.UI.Pivot">
+            <div data-win-control="WinJS.UI.PivotItem"
+                 data-win-options="{ header: 'Section', isHeaderStatic: true }">
+
+                <article>
+                    <p>This is my main page</p>
+                    <button data-win-bind="onclick: navigateCommand Command">Navigate</button>
+
+                    <p>Click to change Demo Page count</p>
+                    <button data-win-bind="onclick: countCommand Command">Click me!</button>
+                </article>
+            </div>
+        </div>
+    </section>
+</div>

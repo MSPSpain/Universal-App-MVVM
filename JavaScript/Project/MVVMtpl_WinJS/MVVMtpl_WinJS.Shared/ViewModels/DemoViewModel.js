@@ -5,11 +5,14 @@
         function () {
             this.dependencies = "navigatorService, networkService";
             this.observe();
+
+            WinJS.Messenger.on('changedCount', this.changedCount, this);
         },
 
         {
             obs: {
                 hello: 'Hello world!',
+                count: 0,
                 connection: false
             },
 
@@ -23,8 +26,11 @@
                 setInterval(function () {
                     self.obs.connection = self.networkService.isOnline();
                 }, 1000);
+            },
+
+            changedCount: function (newCount) {
+                this.obs.count = newCount;
             }
-                
         }
     );
 
