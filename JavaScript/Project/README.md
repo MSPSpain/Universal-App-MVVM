@@ -149,6 +149,7 @@ To make new Model:
 ```
 
 ## Windows Project
+
 ### default.html
 You only need to modify `#contenhost` including your first view, for example `Views.MainPage`:
 ```
@@ -166,7 +167,6 @@ Here we have out views, for each view you need and html and js file.
 
 ```
 <div>My Page</div>
-
 ```
 
 2. Create View js file and code:
@@ -190,7 +190,62 @@ Here we have out views, for each view you need and html and js file.
     });
 })(this, WinJS);
 
+```
 
+3. Register the view in ViewsDictionary:
+**[Shared/AppConfig/ViewsDictionary.js](https://github.com/MSPSpain/Universal-App-MVVM/blob/master/JavaScript/Project/MVVMtpl_WinJS/MVVMtpl_WinJS.Shared/AppConfig/ViewsDictionary.js)**
+
+```
+MainPage: "/Views/MainPage.html",
+```
+
+4. Associate the view to the view-model in NavigatorConfiguration:
+**[Shared/AppConfig/NavigatorService.js](https://github.com/MSPSpain/Universal-App-MVVM/blob/master/JavaScript/Project/MVVMtpl_WinJS/MVVMtpl_WinJS.Shared/AppConfig/NavigatorService.js)**
+
+```
+MainViewModel: Views.MainPage
+```
+## Windows Phone Project
+<a name="wp-defaulthtml" />
+### default.html
+You only need to modify `#contenhost` including your first view, for example `Views.MainPage` *(Yes exactly the same than Windows 8 but is a different file because we have different dependencies)*:
+```
+<div id="contenthost" 
+    data-win-control="Application.PageControlNavigator" 
+    data-win-options="{home: Views.MainPage}">
+</div>
+```
+<a name="wp-views" />
+### Views
+Here we have out views, for each view you need and html and js file.
+*(Yes another time exactly the same than Windows but our views will be different)*
+1. Create View html file and code:
+**WindowsPhone/Views/MainPage.html**
+
+```
+<div>My Phone Page</div>
+```
+
+2. Create View js file and code:
+**WindowsPhone/Views/MainPage.js**
+*Important: Each View has a ViewModel see the codem the same than Windows but different view*
+
+```
+(function (g, WinJS) {
+    "use strict";
+
+    WinJS.UI.Pages.define(Views.MainPage, {
+        // This function is called whenever a user navigates to this page. It
+        // populates the page elements with the app's data.
+        ready: function (element, options) {
+            // TODO: Initialize the page here.
+            var viewModel = ViewModels.mainViewModel;
+
+            WinJS.Binding.processAll(element, viewModel);
+
+        }
+    });
+})(this, WinJS);
 
 ```
 
@@ -199,7 +254,6 @@ Here we have out views, for each view you need and html and js file.
 
 ```
 MainPage: "/Views/MainPage.html",
-
 ```
 
 4. Associate the view to the view-model in NavigatorConfiguration:
@@ -207,14 +261,5 @@ MainPage: "/Views/MainPage.html",
 
 ```
 MainViewModel: Views.MainPage
-
 ```
-
-
-
-## Windows Phone Project
-<a name="wp-defaulthtml" />
-### default.html
-<a name="wp-views" />
-### Views
 ##Gulp Project
