@@ -270,10 +270,12 @@ To use gulp in the project follow the next steps:
 If you have VS >=2015 Gulp is integrated with your IDE, else you can download [these plugins](http://www.hanselman.com/blog/IntroducingGulpGruntBowerAndNpmSupportForVisualStudio.aspx) or use it externally to VS.
 
 1. Install npm packages.
-![Npm install](http://i.imgur.com/r6pa7H3.gif)
+
+[![Npm install](http://i.imgur.com/LCBwadD.gif)](http://i.imgur.com/r6pa7H3.gif)
 
 2. Use different tasks with task runner
-![task runner](http://i.imgur.com/jwuGJ6N.gif)
+
+[]![task runner](http://i.imgur.com/DkOCrZJ.gif)](http://i.imgur.com/jwuGJ6N.gif)
 
 - **Default:** Every time when you change something.
 - **Watch:** Run automatically **Default** each time when you change someting.
