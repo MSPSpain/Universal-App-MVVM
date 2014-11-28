@@ -9,7 +9,7 @@
     * [ViewModels](#viewmodels) 
     * [Models](#models) 
 4. [Windows Project](#windows-project) 
-    * [Assets](##assets) 
+    * [Assets](#assets) 
     * [Views](#views) 
 5. [Windows Phone Project](#windows-phone-project) 
     * [Assets](#wp-assets)
@@ -48,8 +48,6 @@ You can find public services and folder to use with localservices, you can learn
 To make new Service
 
 1. Create Service **Shared/Services/MyService.cs**
-
-
 ```
 namespace MVVMtpl.Services
 {
@@ -61,6 +59,7 @@ namespace MVVMtpl.Services
     }
 }
 ```
+
 2. Register the Service
 **[Shared/Base/ServiceLocator.cs](https://github.com/MSPSpain/Universal-App-MVVM/blob/master/CSharp/Project/MVVMtpl/MVVMtpl.Shared/Base/ServiceLocator.cs)**
 
@@ -126,21 +125,36 @@ Here we have the specific application resources such as pictures or media files.
 Here we have our views.
 
 1. Create the View file:
-**Windows/Views/MainPage.xaml**
+**Windows/Views/NewPage.xaml**
 
 2. Associate the view with the viewmodel in the View file
-
 ```
-DataContext="{Binding MainViewModel, Source={StaticResource Locator}}"
+DataContext="{Binding NewViewModel, Source={StaticResource Locator}}"
 ```
-
-4. Associate the view to the view-model in NavigationServiceConfiguration:
+3. Associate the view to the view-model in NavigationServiceConfiguration:
 **[Shared/AppConfig/NavigationServiceConfiguration.cs](https://github.com/MSPSpain/Universal-App-MVVM/blob/master/CSharp/Project/MVVMtpl/MVVMtpl.Shared/Services/NavigationServiceConfiguration.cs)**
 ```
 { typeof(NewViewModel), typeof(NewPage) }
 ```
+## Windows Phone Project
+<a name="wp-assets" />
+### Assets
+Here we have the specific application resources such as pictures or media files.
+### Views
+Here we have our views.
 
+1. Create the View file:
+**Windows/Views/NewPage.xaml**
 
+2. Associate the view with the viewmodel in the View file
+```
+DataContext="{Binding NewViewModel, Source={StaticResource Locator}}"
+```
+3. Associate the view to the view-model in NavigationServiceConfiguration:
+**[Shared/AppConfig/NavigationServiceConfiguration.cs](https://github.com/MSPSpain/Universal-App-MVVM/blob/master/CSharp/Project/MVVMtpl/MVVMtpl.Shared/Services/NavigationServiceConfiguration.cs)**
+```
+{ typeof(NewViewModel), typeof(NewPage) }
+```
 
 
 
