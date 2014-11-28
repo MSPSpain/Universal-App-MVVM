@@ -59,7 +59,6 @@ namespace MVVMtpl.Services
     }
 }
 ```
-
 2. Register the Service
 **[Shared/Base/ServiceLocator.cs](https://github.com/MSPSpain/Universal-App-MVVM/blob/master/CSharp/Project/MVVMtpl/MVVMtpl.Shared/Base/ServiceLocator.cs)**
 
@@ -126,7 +125,6 @@ Here we have our views.
 
 1. Create the View file:
 **Windows/Views/NewPage.xaml**
-
 2. Associate the view with the viewmodel in the View file
 ```
 DataContext="{Binding NewViewModel, Source={StaticResource Locator}}"
@@ -145,7 +143,6 @@ Here we have our views.
 
 1. Create the View file:
 **Windows/Views/NewPage.xaml**
-
 2. Associate the view with the viewmodel in the View file
 ```
 DataContext="{Binding NewViewModel, Source={StaticResource Locator}}"
