@@ -196,7 +196,7 @@ Here we have out views, for each view you need and html and js file.
 **[Shared/AppConfig/ViewsDictionary.js](https://github.com/MSPSpain/Universal-App-MVVM/blob/master/JavaScript/Project/MVVMtpl_WinJS/MVVMtpl_WinJS.Shared/AppConfig/ViewsDictionary.js)**
 
 ```
-MainPage: "/Views/MainPage.html",
+MainPage: "/Views/MainPage.html"
 ```
 
 4. Associate the view to the view-model in NavigatorConfiguration:
@@ -253,7 +253,7 @@ Here we have out views, for each view you need and html and js file.
 **[Shared/AppConfig/ViewsDictionary.js](https://github.com/MSPSpain/Universal-App-MVVM/blob/master/JavaScript/Project/MVVMtpl_WinJS/MVVMtpl_WinJS.Shared/AppConfig/ViewsDictionary.js)**
 
 ```
-MainPage: "/Views/MainPage.html",
+MainPage: "/Views/MainPage.html"
 ```
 
 4. Associate the view to the view-model in NavigatorConfiguration:
@@ -263,3 +263,19 @@ MainPage: "/Views/MainPage.html",
 MainViewModel: Views.MainPage
 ```
 ##Gulp Project
+When you work with JavaScript, SASS/LESS, etc. Gulp helps you to be happy :) you have more infor about Gulp in the [official website](http://gulpjs.com/).
+To use gulp in the project follow the next steps:
+
+0. Configure your Visual Studio
+If you have VS >=2015 Gulp is integrated with your IDE, else you can download [these plugins](http://www.hanselman.com/blog/IntroducingGulpGruntBowerAndNpmSupportForVisualStudio.aspx) or use it externally to VS.
+
+1. Install npm packages.
+![Npm install](http://i.imgur.com/r6pa7H3.gif)
+
+2. Use different tasks with task runner
+![task runner](http://i.imgur.com/jwuGJ6N.gif)
+
+- **Default:** Every time when you change something.
+- **Watch:** Run automatically **Default** each time when you change someting.
+- **Build:** Before create your packages.
+- **Default:clear:** When you need to change something after run **Build**.
