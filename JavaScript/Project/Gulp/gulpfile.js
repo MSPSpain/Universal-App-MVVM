@@ -111,6 +111,6 @@ gulp.task('build', function () {
 });
 
 gulp.task('watch', function () {
-    gulp.watch('../' + projectName + '/**/.js', ['default:inject']);
-    gulp.watch('../' + projectName + '/**/.scss', ['default:sass']);
+    gulp.watch(projectPath + '**/*.js', ['default:inject']);
+    gulp.watch(projectPath + '**/*.scss', ['default:sass']);
 });

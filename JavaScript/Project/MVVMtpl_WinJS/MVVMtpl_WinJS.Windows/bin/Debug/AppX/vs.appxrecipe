@@ -20,7 +20,7 @@
     <AppXManifest Include="C:\github\Universal-App-MVVM\JavaScript\Project\MVVMtpl_WinJS\MVVMtpl_WinJS.Windows\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-11-26T16:23:40.411</Modified>
+      <Modified>2014-11-27T14:00:20.658</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -38,7 +38,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github\Universal-App-MVVM\JavaScript\Project\MVVMtpl_WinJS\MVVMtpl_WinJS.Windows\default.html">
       <PackagePath>default.html</PackagePath>
-      <Modified>2014-11-26T16:23:30.473</Modified>
+      <Modified>2014-11-27T12:04:28.662</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github\Universal-App-MVVM\JavaScript\Project\MVVMtpl_WinJS\MVVMtpl_WinJS.Windows\Views\DemoPage.html">
       <PackagePath>Views\DemoPage.html</PackagePath>
@@ -150,7 +150,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github\Universal-App-MVVM\JavaScript\Project\MVVMtpl_WinJS\MVVMtpl_WinJS.Windows\bin\Debug\ReverseMap\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2014-11-26T16:23:40.144</Modified>
+      <Modified>2014-11-27T14:00:19.736</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
