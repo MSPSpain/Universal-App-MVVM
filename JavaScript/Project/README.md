@@ -44,6 +44,7 @@ You can modify each of this files if you want, but we recommend this:
 
 - Helpers (Namespace to put our helpders)
 - BindingMode (To add diferent Binding Modes, for default Command, Binding.Mode.twoway)
+
 ### AppConfig
 In this folder we have our app configuration, you can edit these files:
 
@@ -282,3 +283,5 @@ If you have VS >=2015 Gulp is integrated with your IDE, else you can download [t
 - **Watch:** Run automatically **Default** each time when you change someting.
 - **Build:** Before create your packages.
 - **Default:clear:** When you need to change something after run **Build**.
+
+*If Visual Studio Task Runner can't find gulpfile, [install this plugin](https://github.com/Bjornej/GruntLauncher/pull/29#issuecomment-62278164).*
