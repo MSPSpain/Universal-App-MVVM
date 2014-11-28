@@ -275,7 +275,8 @@ If you have VS >=2015 Gulp is integrated with your IDE, else you can download [t
 
 2. Use different tasks with task runner
 
-[]![task runner](http://i.imgur.com/DkOCrZJ.gif)](http://i.imgur.com/jwuGJ6N.gif)
+[![task runner](http://i.imgur.com/DkOCrZJ.gif)](http://i.imgur.com/jwuGJ6N.gif)
+
 
 - **Default:** Every time when you change something.
 - **Watch:** Run automatically **Default** each time when you change someting.
