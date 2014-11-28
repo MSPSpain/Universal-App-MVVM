@@ -20,13 +20,13 @@
     <AppXManifest Include="C:\GITHUB\Universal-App-MVVM\CSharp\Project\MVVMtpl\MVVMtpl.Windows\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-11-26T13:52:11.221</Modified>
+      <Modified>2014-11-27T15:36:36.857</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\GITHUB\Universal-App-MVVM\CSharp\Project\MVVMtpl\MVVMtpl.Windows\bin\Debug\MVVMtpl.Windows.exe">
       <PackagePath>MVVMtpl.Windows.exe</PackagePath>
-      <Modified>2014-11-26T13:52:41.296</Modified>
+      <Modified>2014-11-27T16:14:47.956</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GITHUB\Universal-App-MVVM\CSharp\Project\packages\MvvmLightLibs.5.0.0.0\lib\netcore451\GalaSoft.MvvmLight.dll">
       <PackagePath>GalaSoft.MvvmLight.dll</PackagePath>
@@ -74,23 +74,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GITHUB\Universal-App-MVVM\CSharp\Project\MVVMtpl\MVVMtpl.Windows\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2014-11-26T13:48:11.150</Modified>
+      <Modified>2014-11-27T15:36:35.860</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GITHUB\Universal-App-MVVM\CSharp\Project\MVVMtpl\MVVMtpl.Windows\bin\Debug\Views\ExamplePage.xbf">
       <PackagePath>Views\ExamplePage.xbf</PackagePath>
-      <Modified>2014-11-26T13:48:11.165</Modified>
+      <Modified>2014-11-27T16:14:47.686</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GITHUB\Universal-App-MVVM\CSharp\Project\MVVMtpl\MVVMtpl.Windows\bin\Debug\Views\MainPage.xbf">
       <PackagePath>Views\MainPage.xbf</PackagePath>
-      <Modified>2014-11-26T13:48:11.165</Modified>
+      <Modified>2014-11-27T16:14:47.688</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GITHUB\Universal-App-MVVM\CSharp\Project\MVVMtpl\MVVMtpl.Windows\bin\Debug\MVVMtpl.Windows.xr.xml">
       <PackagePath>MVVMtpl.Windows.xr.xml</PackagePath>
-      <Modified>2014-11-26T13:48:11.040</Modified>
+      <Modified>2014-11-27T16:14:47.676</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GITHUB\Universal-App-MVVM\CSharp\Project\MVVMtpl\MVVMtpl.Windows\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2014-11-26T13:52:10.783</Modified>
+      <Modified>2014-11-27T16:10:40.699</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

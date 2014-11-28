@@ -1,6 +1,5 @@
 <XamlCompilerSaveState>
   <ReferenceAssemblyList>
-    <LocalAssembly PathName="c:\github\universal-app-mvvm\csharp\project\mvvmtpl\mvvmtpl.windowsphone\obj\debug\intermediatexaml\mvvmtpl.windowsphone.exe" HashGuid="cfe3fa54-4749-71e2-8b74-60958fb0c9e4" />
     <ReferenceAssembly PathName="c:\github\universal-app-mvvm\csharp\project\packages\mvvmlightlibs.5.0.0.0\lib\wpa81\galasoft.mvvmlight.dll" HashGuid="e1a415ae-3a96-e5eb-14ad-b6d5f4eac9f8" />
     <ReferenceAssembly PathName="c:\github\universal-app-mvvm\csharp\project\packages\mvvmlightlibs.5.0.0.0\lib\wpa81\galasoft.mvvmlight.extras.dll" HashGuid="28bb2089-c7a4-73bb-7a72-1ea8b02698b0" />
     <ReferenceAssembly PathName="c:\github\universal-app-mvvm\csharp\project\packages\mvvmlightlibs.5.0.0.0\lib\wpa81\galasoft.mvvmlight.platform.dll" HashGuid="21a87e0f-7bb8-b669-3d48-2479e169399e" />

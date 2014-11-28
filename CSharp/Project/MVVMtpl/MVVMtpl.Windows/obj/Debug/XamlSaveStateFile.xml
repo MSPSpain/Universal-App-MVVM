@@ -1,6 +1,6 @@
 <XamlCompilerSaveState>
   <ReferenceAssemblyList>
-    <LocalAssembly PathName="c:\github\universal-app-mvvm\csharp\project\mvvmtpl\mvvmtpl.windows\obj\debug\intermediatexaml\mvvmtpl.windows.exe" HashGuid="66a69382-447f-bf66-205e-3528c7faec59" />
+    <LocalAssembly PathName="c:\github\universal-app-mvvm\csharp\project\mvvmtpl\mvvmtpl.windows\obj\debug\intermediatexaml\mvvmtpl.windows.exe" HashGuid="bf6555a7-130d-2c2a-090e-2a44855dc51c" />
     <ReferenceAssembly PathName="c:\github\universal-app-mvvm\csharp\project\packages\mvvmlightlibs.5.0.0.0\lib\netcore451\galasoft.mvvmlight.dll" HashGuid="e1a415ae-3a96-e5eb-14ad-b6d5f4eac9f8" />
     <ReferenceAssembly PathName="c:\github\universal-app-mvvm\csharp\project\packages\mvvmlightlibs.5.0.0.0\lib\netcore451\galasoft.mvvmlight.extras.dll" HashGuid="28bb2089-c7a4-73bb-7a72-1ea8b02698b0" />
     <ReferenceAssembly PathName="c:\github\universal-app-mvvm\csharp\project\packages\mvvmlightlibs.5.0.0.0\lib\netcore451\galasoft.mvvmlight.platform.dll" HashGuid="21a87e0f-7bb8-b669-3d48-2479e169399e" />

@@ -6,38 +6,42 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
+    x:Name="RootPage"
     DataContext="{Binding MainViewModel, Source={StaticResource Locator}}">
 
-    <StackPanel>
-        <TextBlock 
-            Text="Static text"
-            FontSize="60"
-            />
-        <TextBlock 
-            Text="{Binding Message}"
-            FontSize="60"
-            />
-        <TextBox 
-            Text="{Binding Message, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
-            />
+    <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
+        <Hub>
+            <Hub.Header>
+                <Grid Margin="0,20,0,0">
+                    <TextBlock x:Name="pageTitle" Text="App Header" 
+                               Style="{StaticResource HeaderTextBlockStyle}" 
+                               IsHitTestVisible="false" TextWrapping="NoWrap" 
+                               VerticalAlignment="Top"/>
+                </Grid>
+            </Hub.Header>
+            <HubSection Width="1000" Background="Gray">
 
-        <Button
-            Command="{Binding NavigateToCommand}"
-            Content="Navigate to Example"
-            />
-        <Button
-            Command="{Binding CreateFileCommand}"
-            Content="Create file"
-            />
-        <Button
-            Command="{Binding ReadFileCommand}"
-            Content="Read file"
-            />
-        <Button
-            Command="{Binding ClearFileCommand}"
-            Content="Clear file"
-            />
-        
-    </StackPanel>
+            </HubSection>
+            <HubSection Header="Section" Margin="80,0,0,0">
+                <DataTemplate>
+                    <StackPanel>
+                        <TextBlock Text="Ejemplo de Navigation y Command"
+                                   FontSize="30"
+                                   Margin="0, 10, 0, 0"/>
+                        <Button Content="Navigate to Detail Page"
+                                Margin="0, 0, 0, 10"
+                                Command="{Binding NavigateToCommand}"/>
+
+                        <TextBlock Text="Ejemplo de Messaging"
+                                   FontSize="30"
+                                   Margin="0, 10, 0, 0"/>
+                        <Button Content="Add 1 to Count value at Detail Page"
+                                Command="{Binding NumberMessageCommand}"/>
+                    </StackPanel>
+                </DataTemplate>
+            </HubSection>
+        </Hub>
+    </Grid>
+
 </Page>
 
