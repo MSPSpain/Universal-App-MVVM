@@ -65,7 +65,7 @@ To make new Service
 
 1. Create Service
 **Shared/Services/MyService.js**
-```
+```javascript
 (function (g, WinJS) {
     "use strict";
 
@@ -93,7 +93,7 @@ To make new ViewModel:
 1. Create ViewModel file and code:
 **Shared/ViewModels/MainViewModel.js**
 
-```
+```javascript
 (function (g, WinJS) {
     "use strict";
 
@@ -120,7 +120,7 @@ To make new ViewModel:
 2. Register the ViewModel
 **[Shared/AppConfig/ServicesLocator.js](https://github.com/MSPSpain/Universal-App-MVVM/blob/master/JavaScript/Project/MVVMtpl_WinJS/MVVMtpl_WinJS.Shared/AppConfig/ServicesLocator.js)**
 
-```
+```javascript
 dictx.register("mainViewModel", ViewModels.MainViewModel);
 ViewModels.mainViewModel = dictx.get('mainViewModel');
 ```
@@ -130,7 +130,7 @@ To make new Model:
 1. Create Model file and code:
 **Shared/Models/Demo.js**
 
-```
+```javascript
 (function (g, WinJS, Helpers) {
     "use strict";
     var Demo = WinJS.Class.define(
@@ -152,7 +152,7 @@ To make new Model:
 
 ### default.html
 You only need to modify `#contenhost` including your first view, for example `Views.MainPage`:
-```
+```html
 <div id="contenthost" 
     data-win-control="Application.PageControlNavigator" 
     data-win-options="{home: Views.MainPage}">
@@ -165,7 +165,7 @@ Here we have out views, for each view you need and html and js file.
 1. Create View html file and code:
 **Windows/Views/MainPage.html**
 
-```
+```html
 <div>My Page</div>
 ```
 
@@ -173,7 +173,7 @@ Here we have out views, for each view you need and html and js file.
 **Windows/Views/MainPage.js**
 *Important: Each View has a ViewModel see the code*
 
-```
+```javascript
 (function (g, WinJS) {
     "use strict";
 
@@ -195,21 +195,21 @@ Here we have out views, for each view you need and html and js file.
 3. Register the view in ViewsDictionary:
 **[Shared/AppConfig/ViewsDictionary.js](https://github.com/MSPSpain/Universal-App-MVVM/blob/master/JavaScript/Project/MVVMtpl_WinJS/MVVMtpl_WinJS.Shared/AppConfig/ViewsDictionary.js)**
 
-```
+```javascript
 MainPage: "/Views/MainPage.html"
 ```
 
 4. Associate the view to the view-model in NavigatorConfiguration:
 **[Shared/AppConfig/NavigatorService.js](https://github.com/MSPSpain/Universal-App-MVVM/blob/master/JavaScript/Project/MVVMtpl_WinJS/MVVMtpl_WinJS.Shared/AppConfig/NavigatorService.js)**
 
-```
+```javascript
 MainViewModel: Views.MainPage
 ```
 ## Windows Phone Project
 <a name="wp-defaulthtml" />
 ### default.html
 You only need to modify `#contenhost` including your first view, for example `Views.MainPage` *(Yes exactly the same than Windows 8 but is a different file because we have different dependencies)*:
-```
+```html
 <div id="contenthost" 
     data-win-control="Application.PageControlNavigator" 
     data-win-options="{home: Views.MainPage}">
@@ -222,7 +222,7 @@ Here we have out views, for each view you need and html and js file.
 1. Create View html file and code:
 **WindowsPhone/Views/MainPage.html**
 
-```
+```html
 <div>My Phone Page</div>
 ```
 
@@ -230,7 +230,7 @@ Here we have out views, for each view you need and html and js file.
 **WindowsPhone/Views/MainPage.js**
 *Important: Each View has a ViewModel see the codem the same than Windows but different view*
 
-```
+```javascript
 (function (g, WinJS) {
     "use strict";
 
@@ -252,14 +252,14 @@ Here we have out views, for each view you need and html and js file.
 3. Register the view in ViewsDictionary:
 **[Shared/AppConfig/ViewsDictionary.js](https://github.com/MSPSpain/Universal-App-MVVM/blob/master/JavaScript/Project/MVVMtpl_WinJS/MVVMtpl_WinJS.Shared/AppConfig/ViewsDictionary.js)**
 
-```
+```javascript
 MainPage: "/Views/MainPage.html"
 ```
 
 4. Associate the view to the view-model in NavigatorConfiguration:
 **[Shared/AppConfig/NavigatorService.js](https://github.com/MSPSpain/Universal-App-MVVM/blob/master/JavaScript/Project/MVVMtpl_WinJS/MVVMtpl_WinJS.Shared/AppConfig/NavigatorService.js)**
 
-```
+```javascript
 MainViewModel: Views.MainPage
 ```
 ##Gulp Project
