@@ -4,6 +4,7 @@
     using System.Net.Http;
     using System.Net.Http.Headers;
     using System.Threading.Tasks;
+    using Newtonsoft.Json;
 
     public class HttpService
     {
@@ -47,6 +48,23 @@
             HttpResponseMessage response = await httpClient.SendAsync(request);
 
             response.EnsureSuccessStatusCode();
+
+            return await response.Content.ReadAsStringAsync();
+        }
+
+        /// <summary>
+        /// Makes a post request sending JSON content.
+        /// </summary>
+        /// <param name="requestUriString">The request Uri</param>
+        /// <param name="data">The content to POST</param>
+        /// <returns>The task to wait for the response string</returns>
+        public async Task<string> PostAsync(string requestUriString, object data)
+        {
+            string jsonContent = JsonConvert.SerializeObject(data);
+
+            HttpClient client = new HttpClient();
+            client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+            HttpResponseMessage response = await client.PostAsync(requestUriString, new StringContent(jsonContent));
 
             return await response.Content.ReadAsStringAsync();
         }

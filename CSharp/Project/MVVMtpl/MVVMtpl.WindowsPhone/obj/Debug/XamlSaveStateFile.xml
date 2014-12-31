@@ -1,9 +1,10 @@
 <XamlCompilerSaveState>
   <ReferenceAssemblyList>
-    <ReferenceAssembly PathName="c:\github\universal-app-mvvm\csharp\project\packages\mvvmlightlibs.5.0.0.0\lib\wpa81\galasoft.mvvmlight.dll" HashGuid="e1a415ae-3a96-e5eb-14ad-b6d5f4eac9f8" />
-    <ReferenceAssembly PathName="c:\github\universal-app-mvvm\csharp\project\packages\mvvmlightlibs.5.0.0.0\lib\wpa81\galasoft.mvvmlight.extras.dll" HashGuid="28bb2089-c7a4-73bb-7a72-1ea8b02698b0" />
-    <ReferenceAssembly PathName="c:\github\universal-app-mvvm\csharp\project\packages\mvvmlightlibs.5.0.0.0\lib\wpa81\galasoft.mvvmlight.platform.dll" HashGuid="21a87e0f-7bb8-b669-3d48-2479e169399e" />
-    <ReferenceAssembly PathName="c:\github\universal-app-mvvm\csharp\project\packages\commonservicelocator.1.3\lib\portable-net4+sl5+netcore45+wpa81+wp8\microsoft.practices.servicelocation.dll" HashGuid="89de7f80-26d8-a17c-5ad9-b855f81ea5b2" />
-    <ReferenceAssembly PathName="c:\github\universal-app-mvvm\csharp\project\packages\unity.3.5.1405-prerelease\lib\portable-net45+wp80+win8+wpa81+monoandroid10+monotouch10\microsoft.practices.unity.dll" HashGuid="bfbab92e-125a-5b6e-9ddc-f777451b52b9" />
+    <ReferenceAssembly PathName="c:\code\msp\universal-app-mvvm\csharp\project\packages\mvvmlightlibs.5.0.0.0\lib\wpa81\galasoft.mvvmlight.dll" HashGuid="e1a415ae-3a96-e5eb-14ad-b6d5f4eac9f8" />
+    <ReferenceAssembly PathName="c:\code\msp\universal-app-mvvm\csharp\project\packages\mvvmlightlibs.5.0.0.0\lib\wpa81\galasoft.mvvmlight.extras.dll" HashGuid="28bb2089-c7a4-73bb-7a72-1ea8b02698b0" />
+    <ReferenceAssembly PathName="c:\code\msp\universal-app-mvvm\csharp\project\packages\mvvmlightlibs.5.0.0.0\lib\wpa81\galasoft.mvvmlight.platform.dll" HashGuid="21a87e0f-7bb8-b669-3d48-2479e169399e" />
+    <ReferenceAssembly PathName="c:\code\msp\universal-app-mvvm\csharp\project\packages\commonservicelocator.1.3\lib\portable-net4+sl5+netcore45+wpa81+wp8\microsoft.practices.servicelocation.dll" HashGuid="89de7f80-26d8-a17c-5ad9-b855f81ea5b2" />
+    <ReferenceAssembly PathName="c:\code\msp\universal-app-mvvm\csharp\project\packages\unity.3.5.1405-prerelease\lib\portable-net45+wp80+win8+wpa81+monoandroid10+monotouch10\microsoft.practices.unity.dll" HashGuid="bfbab92e-125a-5b6e-9ddc-f777451b52b9" />
+    <ReferenceAssembly PathName="c:\code\msp\universal-app-mvvm\csharp\project\packages\newtonsoft.json.6.0.7\lib\portable-net40+sl5+wp80+win8+wpa81\newtonsoft.json.dll" HashGuid="d0c321bd-bfc3-83af-d7a2-da028a11b529" />
   </ReferenceAssemblyList>
 </XamlCompilerSaveState>
