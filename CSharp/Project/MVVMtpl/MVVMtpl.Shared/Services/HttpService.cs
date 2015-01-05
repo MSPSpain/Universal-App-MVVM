@@ -39,15 +39,13 @@
         /// </summary>
         /// <param name="requestUriString">The request Uri</param>
         /// <returns>The task to wait for the response string</returns>
-        public async Task<string> PostAsync(string requestUriString)
+        public async Task<string> PostAsync(string requestUriString, object data)
         {
-            HttpClientHandler handler = new HttpClientHandler();
-            HttpClient httpClient = new HttpClient(handler);
-            HttpRequestMessage request = new HttpRequestMessage(HttpMethod.Post, requestUriString);
+            var content = new StringContent(JsonConvert.SerializeObject(data), Encoding.UTF8, "application/json");
 
-            HttpResponseMessage response = await httpClient.SendAsync(request);
-
-            response.EnsureSuccessStatusCode();
+            HttpClient client = new HttpClient();
+            client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+            HttpResponseMessage response = await client.PostAsync(requestUriString, content);
 
             return await response.Content.ReadAsStringAsync();
         }
