@@ -25,7 +25,7 @@ namespace MVVMtpl.ViewModels
             this.navigationService = navigationService;
             this.messagingService = messagingService;
 
-            messagingService.Register();
+            //messagingService.Register();
 
             NavigateBackCommand = new RelayCommand(NavigateBackExecute);
         }
