@@ -37,6 +37,10 @@ namespace MVVMtpl
         {
             this.InitializeComponent();
             this.Suspending += this.OnSuspending;
+
+#if WINDOWS_PHONE_APP
+            Windows.Phone.UI.Input.HardwareButtons.BackPressed += HardwareButtons_BackPressed;
+#endif
         }
 
         /// <summary>
@@ -133,5 +137,22 @@ namespace MVVMtpl
             // TODO: Save application state and stop any background activity
             deferral.Complete();
         }
+
+#if WINDOWS_PHONE_APP
+        /// <summary>
+        /// Invoked when back button is pressed.
+        /// </summary>
+        /// <param name="sender">The source of the suspend request.</param>
+        /// <param name="e">Details about the suspend request.</param>
+        private void HardwareButtons_BackPressed(object sender, Windows.Phone.UI.Input.BackPressedEventArgs e)
+        {
+            Frame rootFrame = Window.Current.Content as Frame;
+            if (rootFrame != null && rootFrame.CanGoBack)
+            {
+                rootFrame.GoBack();
+                e.Handled = true;
+            }
+        }
+#endif
     }
 }
